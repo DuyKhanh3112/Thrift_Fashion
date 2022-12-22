@@ -1,0 +1,30 @@
+﻿.inputfilelogo {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+    .inputfilelogo + label {
+        font-size: 1.2em;
+        font-weight: 500;
+        color: black;
+        background-color: white;
+        display: inline-block;
+        cursor: pointer;
+        text-align: center;
+        width: 150px;
+        margin-top: 5px;
+        border: solid 1px;
+        border-radius: 5px;
+        border-color:white;
+    }
+
+        .inputfilelogo:focus + label,
+        .inputfilelogo + label:hover {
+            color: #00BBA6;
+            border-color: #00BBA6;
+            border: solid 1px;
+            border-radius: 5px;
+        }

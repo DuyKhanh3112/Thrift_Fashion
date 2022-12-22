@@ -1,0 +1,227 @@
+﻿@model IEnumerable<Thrift_Fashion.Models.Product>
+@{
+    ViewBag.Title = "Thrift Fashion";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="pos_home_section">
+    <div class="row">
+        <!--banner slider start-->
+        <div class="col-12">
+            <div class="banner_slider slider_two">
+                <div class="slider_active owl-carousel">
+                    <div class="single_slider" style="background-image: url(/Image/Client/img/slider/slider_2.png)">
+                        <div class="slider_content">
+                            <div class="slider_content_inner">
+                                <h1>Shift to Thrift</h1>
+                                <p>Provides a facility for easy shopping of used apparel in new condition,<br /> making it convenient for customers to shop from anywhere, anytime.</p>
+                                <a href="/Products/ShowAllProduct">shop now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single_slider" style="background-image: url(/Image/Client/img/slider/slide_4.png)">
+                        <div class="slider_content">
+                            <div class="slider_content_inner">
+                                <h1>Shift to Thrift</h1>
+                                <p>Provides a facility for easy shopping of used apparel in new condition,<br /> making it convenient for customers to shop from anywhere, anytime.</p>
+                                <a href="/Products/ShowAllProduct">shop now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="single_slider" style="background-image: url(/Image/Client/img/slider/slider_3.png)">
+                        <div class="slider_content">
+                            <div class="slider_content_inner">
+                                <h1>Shift to Thrift</h1>
+                                <p>Provides a facility for easy shopping of used apparel in new condition,<br /> making it convenient for customers to shop from anywhere, anytime.</p>
+                                <a href="/Products/ShowAllProduct">shop now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--banner slider start-->
+
+        </div>
+    </div>
+    @if (Model.Count() > 0)
+    {
+        <div class="new_product_area product_two">
+            <div class="row">
+                <div class="col-12">
+                    <div class="block_title">
+                        <h3>  New Products</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="product_active owl-carousel">
+
+                    @foreach (var b in Model)
+                    {
+
+                        decimal priceSale = b.Price * (100 - b.Discount) / 100;
+                        decimal price = b.Price;
+                        <div class="col-lg-3 col-md-6">
+                            <div class="single_product">
+                                <div class="product_thumb">
+                                    <a href="@Url.Action("Product_detail", "Products", new { id=b.ProductID })"><img src="/Image/Upload/Product/@b.Image" style="width:100%;height:270px;" alt=""></a>
+                                    @{ if (b.CreatedDate >= DateTime.Now.AddDays(-7))
+                                        {
+                                            <div class="img_icone">
+                                                <img src="~/Image/Client/img/cart/span-new.png" alt="">
+                                            </div>
+                                        } }
+                                    <div class="product_action">
+                                        <a href="@Url.Action("CreateCart", "Products", new { id=b.ProductID })"> <i class="fa fa-shopping-cart"></i> Add to cart</a>
+                                    </div>
+                                </div>
+                                <div class="product_content">
+                                    <span class="product_price">
+                                        $@priceSale.ToString("N0")
+                                        @{ if (b.Discount > 0)
+                                            {
+                                                <i class="price-dc"> $@price.ToString("N0") </i>
+                                            }
+                                        }
+                                    </span>
+                                    <h3 class="product_title"><a href="#"> @b.Name</a></h3>
+                                </div>
+                                <div class="product_info">
+                                    <ul>
+                                        <li><a data-modal='' href="@Url.Action("AddWishList", "Products", new { id=b.ProductID })" title=" Add to Wishlist ">Add to Wishlist</a></li>
+                                        <li><a href="@Url.Action("Product_detail", "Products", new { id=b.ProductID })" title="Quick view">View Detail</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    }
+
+    <!--new product area start-->
+
+
+    <div class="new_product_area product_two">
+        <div class="row">
+            <div class="col-12">
+                <div class="block_title">
+                    <h3>   Hot Products</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="product_active owl-carousel">
+                @foreach (var b in ViewBag.Hot)
+                {
+                    decimal priceSale = b.Price * (100 - b.Discount) / 100;
+                    decimal price = b.Price;
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single_product">
+                            <div class="product_thumb">
+                                <a href="@Url.Action("Product_detail", "Products", new { id=b.ProductID })"><img src="/Image/Upload/Product/@b.Image" style="width:100%;height:270px;" alt=""></a>
+                                <div class="hot_img">
+                                    <img src="~/Image/Client/img/cart/span-hot.png" alt="">
+                                </div>
+                                @{ if (b.CreatedDate >= DateTime.Now.AddDays(-7))
+                                    {
+                                        <div class="img_icone">
+                                            <img src="~/Image/Client/img/cart/span-new.png" alt="">
+                                        </div>
+                                    } }
+                                <div class="product_action">
+                                    <a href="@Url.Action("CreateCart", "Products", new { id=b.ProductID })"> <i class="fa fa-shopping-cart"></i> Add to cart</a>
+                                </div>
+                            </div>
+                            <div class="product_content">
+                                <span class="product_price">
+                                    $@priceSale.ToString("N0")
+                                    @{ if (b.Discount > 0)
+                                        {
+                                            <i class="price-dc"> $@price.ToString("N0") </i>
+                                        }
+                                    }
+                                </span>
+                                <h3 class="product_title"><a href="#"> @b.Name</a></h3>
+                            </div>
+                            <div class="product_info">
+                                <ul>
+                                    <li><a data-modal='' href="@Url.Action("AddWishList", "Products", new { id=b.ProductID })" title=" Add to Wishlist ">Add to Wishlist</a></li>
+                                    <li><a href="@Url.Action("Product_detail", "Products", new { id=b.ProductID })" title="Quick view">View Detail</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+    <div class="new_product_area product_two">
+        <div class="row">
+            <div class="col-12">
+                <div class="block_title">
+                    <h3> Sale Products</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="product_active owl-carousel">
+                @foreach (var b in ViewBag.sale)
+                {
+                    decimal priceSale = b.Price * (100 - b.Discount) / 100;
+                    decimal price = b.Price;
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single_product">
+                            <div class="product_thumb">
+                                <a href="@Url.Action("Product_detail", "Products", new { id=b.ProductID })"><img src="/Image/Upload/Product/@b.Image" style="width:100%;height:270px;" alt=""></a>
+                                @{ if (b.CreatedDate >= DateTime.Now.AddDays(-7))
+                                    {
+                                        <div class="img_icone">
+                                            <img src="~/Image/Client/img/cart/span-new.png" alt="">
+                                        </div>
+                                    } }
+                                <div class="product_action">
+                                    <a href="@Url.Action("CreateCart", "Products", new { id=b.ProductID })"> <i class="fa fa-shopping-cart"></i> Add to cart</a>
+                                </div>
+                            </div>
+                            <div class="product_content">
+                                <span class="product_price">
+                                    $@priceSale.ToString("N0")
+                                    @{ if (b.Discount > 0)
+                                        {
+                                            <i class="price-dc"> $@price.ToString("N0") </i>
+                                        }
+                                    }
+                                </span>
+                                <h3 class="product_title"><a href="#"> @b.Name</a></h3>
+                            </div>
+                            <div class="product_info">
+                                <ul>
+                                    <li><a data-modal='' href="@Url.Action("AddWishList", "Products", new { id=b.ProductID })" title=" Add to Wishlist ">Add to Wishlist</a></li>
+                                    <li><a href="@Url.Action("Product_detail", "Products", new { id=b.ProductID })" title="Quick view">View Detail</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+    <!--brand logo end-->
+</div>
+<div class="row" style="margin-top:1.5rem">
+    <div class="col-lg-6">
+        <iframe style="width:100%" height="315" src="https://www.youtube.com/embed/PvcHDS8dJRE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="col-lg-6">
+        <iframe style="width:100%" height="315" src="https://www.youtube.com/embed/P8HSmBxNEI8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+   
+</div>
+<style>
+    .price-dc {
+        text-decoration: line-through;
+        color: #00BBA6;
+        font-size: 12px
+    }
+</style>

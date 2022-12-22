@@ -1,0 +1,187 @@
+﻿@model Thrift_Fashion.Models.VirtualModel.LoginModel
+@{
+    Layout = null;
+}
+
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+    <!-- favicon
+       ============================================ -->
+    <link rel="shortcut icon" type="image/x-icon" href="~/Content/Server/img/favicon.ico">
+    <!-- Google Fonts
+        ============================================ -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
+    <!-- Bootstrap CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/Content/Server/css/bootstrap.min.css">
+    <!-- Bootstrap CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/Content/Server/css/font-awesome.min.css">
+    <!-- owl.carousel CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/Content/Server/css/owl.carousel.css">
+    <link rel="stylesheet" href="~/Content/Server/css/owl.theme.css">
+    <link rel="stylesheet" href="~/Content/Server/css/owl.transitions.css">
+    <!-- animate CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/Content/Server/css/animate.css">
+    <!-- normalize CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/Content/Server/css/normalize.css">
+    <!-- meanmenu icon CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/Content/Server/css/meanmenu.min.css">
+    <!-- main CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/Content/Server/css/main.css">
+    <!-- educate icon CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/Content/Server/css/educate-custon-icon.css">
+    <!-- morrisjs CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/Content/Server/css/morrisjs/morris.css">
+    <!-- mCustomScrollbar CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/Content/Server/css/scrollbar/jquery.mCustomScrollbar.min.css">
+    <!-- metisMenu CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/Content/Server/css/metisMenu/metisMenu.min.css">
+    <link rel="stylesheet" href="~/Content/Server/css/metisMenu/metisMenu-vertical.css">
+    <!-- calendar CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/Content/Server/css/calendar/fullcalendar.min.css">
+    <link rel="stylesheet" href="~/Content/Server/css/calendar/fullcalendar.print.min.css">
+    <!-- style CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/Content/Server/style.css">
+    <!-- responsive CSS
+    ============================================ -->
+    <link rel="stylesheet" href="~/Content/Server/css/responsive.css">
+    <!-- modernizr JS
+        ============================================ -->
+    <script src="~/Content/Server/js/vendor/modernizr-2.8.3.min.js"></script>
+
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <div class="error-pagewrap">
+        <div class="error-page-int">
+            <div class="text-center m-b-md custom-login">
+                <h3>PLEASE LOGIN TO THRIFT FASHION</h3>
+                <p>This is the best app ever!</p>
+            </div>
+            <div class="content-error">
+                <div class="hpanel">
+                    <div class="panel-body">
+
+                        @using (Html.BeginForm("EmployeeLogin", "Employees", FormMethod.Post))
+                        {
+                            @Html.AntiForgeryToken()
+
+
+                            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+
+                            <div class="form-group">
+                                <label class="control-label" for="username">Username</label>
+
+                                @Html.TextBoxFor(model => model.username, new { @class = "form-control", @id = "txtUserName" })
+                                @Html.ValidationMessageFor(model => model.username, "", new { @class = "text-danger" })
+
+                            </div>
+
+                            <div class="form-group">
+                                <label class="control-label" for="password">Password</label>
+
+                                @Html.PasswordFor(model => model.password, new { @class = "form-control input-text required-entry validate-password", @id = "txtPassword" })
+                                @Html.ValidationMessageFor(model => model.password, "", new { @class = "text-danger" })
+
+                            </div>
+
+
+                          
+                            <button type="submit" class="btn btn-success btn-block loginbtn">Login</button>
+
+                        }
+
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="text-center login-footer">
+                <p>THRIFT FASHION  © 2022</p>
+            </div>
+        </div>
+    </div>
+    <!-- jquery
+    ============================================ -->
+    <script src="~/Content/Server/js/vendor/jquery-1.12.4.min.js"></script>
+    <!-- bootstrap JS
+        ============================================ -->
+    <script src="~/Content/Server/js/bootstrap.min.js"></script>
+    <!-- wow JS
+        ============================================ -->
+    <script src="~/Content/Server/js/wow.min.js"></script>
+    <!-- price-slider JS
+        ============================================ -->
+    <script src="~/Content/Server/js/jquery-price-slider.js"></script>
+    <!-- meanmenu JS
+        ============================================ -->
+    <script src="~/Content/Server/js/jquery.meanmenu.js"></script>
+    <!-- owl.carousel JS
+        ============================================ -->
+    <script src="~/Content/Server/js/owl.carousel.min.js"></script>
+    <!-- sticky JS
+        ============================================ -->
+    <script src="~/Content/Server/js/jquery.sticky.js"></script>
+    <!-- scrollUp JS
+        ============================================ -->
+    <script src="~/Content/Server/js/jquery.scrollUp.min.js"></script>
+    <!-- counterup JS
+        ============================================ -->
+    <script src="~/Content/Server/js/counterup/jquery.counterup.min.js"></script>
+    <script src="~/Content/Server/js/counterup/waypoints.min.js"></script>
+    <script src="~/Content/Server/js/counterup/counterup-active.js"></script>
+    <!-- mCustomScrollbar JS
+        ============================================ -->
+    <script src="~/Content/Server/js/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="~/Content/Server/js/scrollbar/mCustomScrollbar-active.js"></script>
+    <!-- metisMenu JS
+        ============================================ -->
+    <script src="~/Content/Server/js/metisMenu/metisMenu.min.js"></script>
+    <script src="~/Content/Server/js/metisMenu/metisMenu-active.js"></script>
+    <!-- morrisjs JS
+        ============================================ -->
+    <script src="~/Content/Server/js/morrisjs/raphael-min.js"></script>
+    <script src="~/Content/Server/js/morrisjs/morris.js"></script>
+    <script src="~/Content/Server/js/morrisjs/morris-active.js"></script>
+    <!-- morrisjs JS
+        ============================================ -->
+    <script src="~/Content/Server/js/sparkline/jquery.sparkline.min.js"></script>
+    <script src="~/Content/Server/js/sparkline/jquery.charts-sparkline.js"></script>
+    <script src="~/Content/Server/js/sparkline/sparkline-active.js"></script>
+    <!-- calendar JS
+        ============================================ -->
+    <script src="~/Content/Server/js/calendar/moment.min.js"></script>
+    <script src="~/Content/Server/js/calendar/fullcalendar.min.js"></script>
+    <script src="~/Content/Server/js/calendar/fullcalendar-active.js"></script>
+    <!-- plugins JS
+        ============================================ -->
+    <script src="~/Content/Server/js/plugins.js"></script>
+    <!-- main JS
+        ============================================ -->
+    <script src="~/Content/Server/js/main.js"></script>
+
+    <script src="~/Content/Server/js/tawk-chat.js"></script>
+</body>
+
+</html>

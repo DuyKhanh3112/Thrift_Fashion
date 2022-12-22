@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1fe30abb3f994edaa54bdbdf5daee6f1" Name="Diagram1">
+        <EntityTypeShape EntityType="ThriftFashionModel.Address" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ThriftFashionModel.Brand" Width="1.5" PointX="0.75" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ThriftFashionModel.Cart" Width="1.5" PointX="5.25" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ThriftFashionModel.Category" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ThriftFashionModel.Customer" Width="1.5" PointX="1.5" PointY="12.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ThriftFashionModel.Employee" Width="1.5" PointX="7.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ThriftFashionModel.Feedback" Width="1.5" PointX="8.25" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ThriftFashionModel.Image" Width="1.5" PointX="5.25" PointY="14.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ThriftFashionModel.Order" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ThriftFashionModel.OrderDetail" Width="1.5" PointX="5.25" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ThriftFashionModel.Product" Width="1.5" PointX="3" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ThriftFashionModel.Wishlist" Width="1.5" PointX="5.25" PointY="11.25" IsExpanded="true" />
+        <AssociationConnector Association="ThriftFashionModel.FK_Address_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="ThriftFashionModel.FK_Order_Address" ManuallyRouted="false" />
+        <AssociationConnector Association="ThriftFashionModel.FK_Product_Brand" ManuallyRouted="false" />
+        <AssociationConnector Association="ThriftFashionModel.FK_Cart_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="ThriftFashionModel.FK_Cart_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="ThriftFashionModel.FK_Product_Category" ManuallyRouted="false" />
+        <AssociationConnector Association="ThriftFashionModel.FK_Feedback_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="ThriftFashionModel.FK_Order_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="ThriftFashionModel.FK_Wishlist_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="ThriftFashionModel.FK_Feedback_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="ThriftFashionModel.FK_Image_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="ThriftFashionModel.FK_OrderDetail_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="ThriftFashionModel.FK_OrderDetail_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="ThriftFashionModel.FK_Wishlist_Product" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

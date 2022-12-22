@@ -1,0 +1,35 @@
+﻿@model List<Thrift_Fashion.Models.Cart>
+<div class="shopping_cart">
+    <a href="#"><i class="fa fa-shopping-cart"></i> @ViewBag.Qty Items - $@ViewBag.TotalPrice <i class="fa fa-angle-down"></i></a>
+
+    <div class="mini_cart">
+        @if (Model == null)
+        {
+            <div>No item in Cart</div>
+        }
+        else
+        {
+            foreach (var item in Model)
+            {
+                <div class="cart_item">
+                    <div class="cart_img">
+                        <a href="/Products/Product_detail?id=@item.ProductID"><img src="/Image/Upload/Product/@item.Product.Image" alt=""></a>
+                    </div>
+                    <div class="cart_info">
+                        <a href="/Products/Product_detail?id=@item.ProductID">@item.Product.Name</a>
+                        <span class="cart_price">$@item.Product.Price.ToString("N0")</span>
+                        <span class="quantity">Quantity: @item.Quantity</span>
+                    </div>
+                </div>
+            }
+        }
+
+        <div class="total_price">
+            <span class="price"> Total </span>
+            <span class="prices">  $@ViewBag.TotalPrice  </span>
+        </div>
+        <div class="cart_button">
+            <a href="/Carts/Checkout"> Check out</a>
+        </div>
+    </div>
+</div>

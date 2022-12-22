@@ -1,0 +1,76 @@
+﻿@model Thrift_Fashion.Models.Image
+
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Views/Shared/_LayoutServer.cshtml";
+}
+
+<!-- Single pro tab review Start-->
+<div class="single-pro-review-area mt-t-30 mg-b-15">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="product-payment-inner-st">
+                    <div id="myTabContent" class="tab-content custom-product-edit">
+                        <div class="product-tab-list tab-pane fade active in" id="description">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="pull-left">
+                                        <h1>Image</h1>
+                                    </div>
+                                    <div class="pull-right">
+                                        <a title="Back to list" href="@Url.Action("Index")" aria-expanded="false" class="btn btn-primary waves-effect waves-light">
+                                            <span class="fa fa-chevron-left" aria-hidden="true"></span>
+                                            Back
+                                        </a>
+                                    </div>
+                                    <div class="review-content-section">
+                                        <div id="dropzone1" class="pro-ad">
+                                            <br />
+                                            <hr />
+                                            @using (Html.BeginForm(Html.BeginForm("Edit", "Images", FormMethod.Post, new { enctype = "multipart/form-data" })))
+                                            {
+                                                @Html.AntiForgeryToken()
+                                                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                                                @Html.HiddenFor(model => model.ImageID)
+                                                <form action="#" class="dropzone dropzone-custom needsclick add-professors" id="demo1-upload">
+                                                    <div class="row">
+                                                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                            <div class="form-group">
+                                                                @Html.LabelFor(model => model.ProductID, htmlAttributes: new { @class = "control-label col-md-10" })
+                                                                @Html.EditorFor(model => model.ProductID, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                                                                @Html.ValidationMessageFor(model => model.ProductID, "", new { @class = "text-danger" })
+                                                            </div>
+                                                            <div class="form-group">
+                                                                @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+                                                                <div class="col-md-10">
+                                                                    <img src="~/Image/Upload/Product/@Model.Name" id="imagelogo" height="150" width="150" /> <br />
+                                                                    <input type="file" name="Logo" id="filelogo" class="inputfilelogo" />
+                                                                    <label for="filelogo">Choose a Image</label>
+                                                                    @Html.EditorFor(model => model.Name, new { htmlAttributes = new { @class = "form-control", @style = "display:none" } })
+                                                                    @Html.ValidationMessageFor(model => model.Name, "", new { @class = "text-danger" })
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-lg-12">
+                                                            <div class="payment-adress">
+                                                                <button type="submit" class="btn btn-primary waves-effect waves-light">Update</button>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

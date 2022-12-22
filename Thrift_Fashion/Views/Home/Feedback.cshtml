@@ -1,0 +1,29 @@
+﻿@{
+    var customerSession = (Thrift_Fashion.Models.VirtualModel.UserSession)Session[Thrift_Fashion.Common.Constants.CUSTOMER_SESSION];
+}
+@{
+    ViewBag.Title = "Feedback";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@using (Html.BeginForm("Feedback", "Home", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+    <h2>Add a review </h2>
+    <p>Your email address will not be published. Required fields are marked </p>
+    <div class="row">
+        <div class="col-12">
+            <label for="review_comment">Your review </label>
+            <textarea name="des" id="review_comment" placeholder="Please login before writing feedback" required></textarea>
+        </div>
+    </div>
+    if (customerSession != null)
+    {
+        <div class="login_submit text-center">
+            <button type="submit">Feedback</button>
+        </div>
+        <br />
+    }
+
+}

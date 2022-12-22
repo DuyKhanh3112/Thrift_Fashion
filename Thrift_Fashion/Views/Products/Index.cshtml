@@ -1,0 +1,154 @@
+﻿@model IEnumerable<Thrift_Fashion.Models.Product>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutServer.cshtml";
+}
+
+@if (TempData["AlertMessage"] != null)
+{
+    <div id="msgAlert" class="alert alert-success hide">
+        <strong> @TempData["AlertMessage"]</strong>
+    </div>
+}
+@section scripts{
+    <script>
+        $("#msgAlert").removeClass("hide");
+
+        $("#msgAlert").delay(2000).slideUp(1000);
+    </script>
+}
+
+<!-- Static Table Start -->
+<div class="data-table-area mg-b-15">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="sparkline13-list">
+                    <div class="sparkline13-hd">
+                        <div class="main-sparkline13-hd pull-left">
+                            <h1>Products</h1>
+                        </div>
+                        <div class="pull-right">
+                            <a title="Create" href="@Url.Action("Create", "Products")" aria-expanded="false" class="btn btn-custon-four btn-success">
+                                <span class="fa fa-plus" aria-hidden="true"></span>
+                                Create
+                            </a>
+                        </div>
+                    </div>
+                    <div class="sparkline13-graph" style="clear:both">
+                        <div class="datatable-dashv1-list custom-datatable-overright">
+                            <table id="table" data-toggle="table" data-pagination="true" data-search="true" data-show-columns="true" data-show-pagination-switch="true" data-show-refresh="true" data-key-events="true" data-show-toggle="true" data-resizable="true" data-cookie="true"
+                                   data-cookie-id-table="saveId" data-show-export="true" data-click-to-select="true" data-toolbar="#toolbar">
+                                <thead>
+                                    <tr>
+                                        <th data-field="No">
+                                            No.
+                                        </th>
+                                        <th data-field="BrandID">
+                                            @Html.DisplayNameFor(model => model.Brand.Name)
+                                        </th>
+                                        <th data-field="CategoryID">
+                                            @Html.DisplayNameFor(model => model.Category.Name)
+                                        </th>
+                                        <th data-field="Name">
+                                            @Html.DisplayNameFor(model => model.Name)
+                                        </th>
+                                        <th data-field="Description">
+                                            @Html.DisplayNameFor(model => model.Description)
+                                        </th>
+                                        <th data-field="Price">
+                                            @Html.DisplayNameFor(model => model.Price)
+                                        </th>
+                                        <th data-field="Quantity">
+                                            @Html.DisplayNameFor(model => model.Quantity)
+                                        </th>
+                                        <th data-field="Discount">
+                                            @Html.DisplayNameFor(model => model.Discount)
+                                        </th>
+                                        <th data-field="Image">
+                                            @Html.DisplayNameFor(model => model.Image)
+                                        </th>
+                                        <th data-field="CreatedDate">
+                                            @Html.DisplayNameFor(model => model.CreatedDate)
+                                        </th>
+                                        <th data-field="Status">
+                                            @Html.DisplayNameFor(model => model.Status)
+                                        </th>
+                                        <th data-field="action">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @{ 
+                                        int count = 0;
+                                    }
+                                    @foreach (var item in Model)
+                                    {
+                                        count++;
+                                        <tr>
+                                            <td>
+                                                @count
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Brand.Name)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Category.Name)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Name)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Description)
+                                            </td>
+                                            <td>
+                                                @{
+                                                    var format = System.Globalization.CultureInfo.GetCultureInfo("en-US");
+                                                    @String.Format(format, "{0:c0}", @item.Price);
+                                                }
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Quantity)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Discount) %
+                                            </td>
+                                            <td>
+                                                <img src="/Image/Upload/Product/@item.Image" height="80" width="150" />
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.CreatedDate)
+                                            </td>
+                                            @{
+                                                if (item.Status)
+                                                {
+                                                    <td>
+                                                        Enable
+                                                    </td>
+                                                }
+                                                else
+                                                {
+                                                    <td>
+                                                        Disable
+                                                    </td>
+                                                }
+                                            }
+                                            <td>
+                                                <a title="Edit" href="@Url.Action("Edit", "Products", new { id=item.ProductID })" aria-expanded="false" class="btn btn-custon-rounded-four btn-primary">
+                                                    <span class="fa fa-edit" aria-hidden="true"></span>
+                                                </a>
+                                                <a title="Details" href="/Images/Index/@item.ProductID" aria-expanded="false" class="btn btn-custon-rounded-four btn-info">
+                                                    <span class="fa fa-image" aria-hidden="true"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

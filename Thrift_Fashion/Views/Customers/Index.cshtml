@@ -1,0 +1,89 @@
+﻿@model IEnumerable<Thrift_Fashion.Models.Customer>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutServer.cshtml";
+}
+
+
+@section scripts{
+
+   
+    <script src="~/Scripts/Server/controller/CustomerJS.js"></script>
+}
+
+
+
+
+<!-- Static Table Start -->
+<div class="data-table-area mg-b-15">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="sparkline13-list">
+                    <div class="sparkline13-hd">
+                        <div class="main-sparkline13-hd pull-left">
+                            <h1>Customers</h1>
+                        </div>
+                    </div>
+                    <div class="sparkline13-graph" style="clear:both">
+                        <div class="datatable-dashv1-list custom-datatable-overright">
+                            <table id="table" data-toggle="table" data-pagination="true" data-search="true" data-show-columns="true" data-show-pagination-switch="true" data-show-refresh="true" data-key-events="true" data-show-toggle="true" data-resizable="true" data-cookie="true"
+                                   data-cookie-id-table="saveId" data-show-export="true" data-click-to-select="true" data-toolbar="#toolbar">
+                                <thead>
+                                    <tr>
+                                        <th data-field="No">
+                                            No.
+                                        </th>
+                                        <th data-field="Fullname">
+                                            @Html.DisplayNameFor(model => model.Fullname)
+                                        </th>
+                                        <th data-field="Email">
+                                            @Html.DisplayNameFor(model => model.Email)
+                                        </th>
+                                        <th data-field="Phone">
+                                            @Html.DisplayNameFor(model => model.Phone)
+                                        </th>
+                                        <th data-field="Status">
+                                            @Html.DisplayNameFor(model => model.Status)
+                                        </th>
+                                        <th data-field="action">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @{
+                                        int count = 0;
+                                    }
+                                    @foreach (var item in Model)
+                                    {
+                                        count++;
+                                        <tr>
+                                            <td>
+                                                @count
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Fullname)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Email)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Phone)
+                                            </td>
+                                            <td><a href="#" class="btnStatus" data-id="@item.CustomerID">@(item.Status ? "Enable" : "Disable")</a></td>
+                                            <td>
+                                                <a title="Details" href="@Url.Action("Details", "Customers", new { id=item.CustomerID })" aria-expanded="false" class="btn btn-custon-rounded-four btn-info">
+                                                    <span class="fa fa-eye" aria-hidden="true"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

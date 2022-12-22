@@ -1,0 +1,76 @@
+﻿@model IEnumerable<Thrift_Fashion.Models.OrderDetail>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<!--shopping cart area start -->
+<div class="shopping_cart_area">
+    <form action="#">
+        <div class="row">
+            <div class="col-12">
+                <div class="table_desc">
+                    <div class="cart_page table-responsive">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th class="product_thumb">@Html.DisplayNameFor(model => model.Product.Image)</th>
+                                    <th class="product_name">@Html.DisplayNameFor(model => model.Product.Name)</th>
+                                    <th class="product-price">@Html.DisplayNameFor(model => model.Product.Price)</th>
+                                    <th class="product_quantity">@Html.DisplayNameFor(model => model.Product.Discount)</th>
+                                    <th class="product_quantity">@Html.DisplayNameFor(model => model.Quantity)</th>
+                                    <th class="product_total">Total</th>
+                                    <th class="product_remove"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @{ decimal amount = 0; int count = 0;}
+                                @foreach (var item in Model)
+                                {
+                                    count++;
+                                    decimal total = item.Quantity * item.Product.Price * (100 - item.Product.Discount) / 100;
+                                    <tr>
+                                        <td class="product_thumb"> <img src="~/Image/Products/@Html.DisplayFor(modelItem => item.Product.Image)" height="100" /> </td>
+                                        <td class="product_name"> @Html.DisplayFor(modelItem => item.Product.Name)</td>
+                                        <td class="product-price">$@Html.DisplayFor(modelItem => item.Product.Price)</td>
+                                        <td class="product-price">@Html.DisplayFor(modelItem => item.Product.Discount)%</td>
+                                        <td class="product_quantity"> @Html.DisplayFor(modelItem => item.Quantity)</td>
+                                        <td class="product_total">$@total.ToString("0.00") </td>
+                                        <td class="product_remove"><a href="#"><i class="fa fa-trash-o"></i></a></td>
+                                        @{amount += total;}
+                                    </tr>
+                                }
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--coupon code area start-->
+                <div class="coupon_area">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="coupon_code">
+                                <h3>Cart Totals</h3>
+                                <div class="coupon_inner">
+                                    <div class="cart_subtotal">
+                                        <p>Total</p>
+                                        <p class="cart_amount">$@amount.ToString("0.00")</p>
+                                    </div>
+                                    <div class="checkout_btn" id="btnCheckout">
+                                        <a href="/Orders/ShowAllOrder">Back to All Order</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        <!--coupon code area end-->
+    </form>
+</div>
+

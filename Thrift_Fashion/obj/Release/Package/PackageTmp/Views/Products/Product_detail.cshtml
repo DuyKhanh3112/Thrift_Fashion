@@ -1,0 +1,336 @@
+﻿@model Thrift_Fashion.Models.Product
+@{
+    ViewBag.Title = "Product_detail";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+
+}
+
+@{
+    var customerSession = (Thrift_Fashion.Models.VirtualModel.UserSession)Session[Thrift_Fashion.Common.Constants.CUSTOMER_SESSION];
+}
+
+<!--breadcrumbs area end-->
+<!--product wrapper start-->
+<div class="product_details sidebar">
+    <div class="row">
+
+        <div class="col-lg-12 col-md-12">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="product_tab sidebar fix">
+                        <div class="tab-content produc_tab_c">
+                            @{
+                                int dem = 1;
+                            }
+                            <div class="tab-pane fade show active" id="p_tab1" role="tabpanel">
+                                <div class="modal_img">
+                                    <a class="large_view" href="/Image/Upload/Product/@Model.Image"><img src="/Image/Upload/Product/@Model.Image" alt="" style="width:100%;height:350px;"></a>
+                                    <div class="img_icone">
+                                        <img src="/Image/client/img/cart/span-new.png " alt="">
+                                    </div>
+
+                                </div>
+                            </div>
+                            @foreach (var img in ViewBag.image)
+                            {
+                                dem++;
+                                string sdem = "p_tab" + dem;
+                                <div class="tab-pane fade show" id="@sdem" role="tabpanel">
+                                    <div class="modal_img">
+                                        <a class="large_view" href="/Image/Upload/Product/@img.Name"><img src="~/Image/Upload/Product/@img.Name" style="width:100%;height:350px;"></a>
+                                        <div class="img_icone">
+                                            <img src="~/Image/img/cart/span-new.png" alt="">
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            }
+                        </div>
+                        <div class="product_tab_button">
+                            <ul class="nav">
+                                @{
+                                    dem = 1;
+                                }
+                                <li>
+                                    <a class="active" data-toggle="tab" href="#p_tab1" role="tab" aria-controls="p_tab1" aria-selected="false"><img src="/Image/Upload/Product/@Model.Image" alt="/Image/Upload/Product/@Model.Image"></a>
+                                </li>
+
+                                @foreach (var img in ViewBag.image)
+                                {
+                                    dem++;
+                                    string sdem = "#p_tab" + dem;
+                                    if (dem <= 3)
+                                    {
+                                        <li>
+
+                                            <a data-toggle="tab" href="@sdem" role="tab" aria-controls="@sdem" aria-selected="false"><img src="/Image/Upload/Product/@img.Name"></a>
+                                        </li>
+                                    }
+
+                                }
+
+
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-6">
+                    <div class="product_d_right">
+                        <h1>@Model.Name</h1>
+                        @{
+                            decimal priceS = Model.Price * (100 - Model.Discount) / 100;
+
+                        }
+                        <div class="product_desc">
+                            <p> @Model.Description</p>
+                        </div>
+
+                        <div class="content_price mb-15">
+                            <span>$@priceS.ToString("N0")</span>
+                            <span class=""></span>
+                            @{ if (Model.Discount != 0)
+                                {
+                                    <i class="price-dc"> $@Model.Price.ToString("N0") </i>
+                                }
+                            }
+                        </div>
+                        <div class="box_quantity mb-20">
+                            @using (Html.BeginForm("CreateCart", "Products", new { id = Model.ProductID }))
+                            {
+                                <form><button type="submit" title="Add to cart"><i class="fa fa-shopping-cart"></i> Add to cart</button></form>
+                            }
+
+                            <a href="@Url.Action("AddWishList", "Products", new { id = Model.ProductID })" title="Add to wishlist"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="product_d_size mb-20">
+                            <label for="group_1">Brand: </label>
+                            <label style="margin-left:5px;">@Model.Brand.Name</label>
+                        </div>
+
+                        <div class="product_d_size mb-20">
+                            <label for="group_1">Category: </label>
+                            <label style="margin-left:5px;">@Model.Category.Name</label>
+
+                        </div>
+
+                        <div class="product_stock mb-20">
+                            <p>@Model.Quantity items</p>
+                            <span> In stock </span>
+                        </div>
+
+                    </div>
+                </div>
+                <!--product info start-->
+                <div class="product_d_info sidebar">
+                    <div class="col-12">
+                        <div class="product_d_inner">
+                            <div class="product_info_button">
+                                <ul class="nav" role="tablist">
+                                    <li>
+                                        <a class="active" data-toggle="tab" href="#reviews" role="tab" aria-controls="reviews" aria-selected="false">Reviews</a>
+                                    </li>
+
+                                    <li>
+                                        <a class="tab" data-toggle="tab" href="#info" role="tab" aria-controls="info" aria-selected="false">Add Review</a>
+                                    </li>
+
+
+                                </ul>
+                            </div>
+                            <div style="width:85vw">
+                                <div class="tab-content">
+                                    <div class="tab-pane fade show " id="info" role="tabpanel">
+                                        @using (Html.BeginForm("Product_detail", "Products", FormMethod.Post))
+                                        {
+                                            @Html.AntiForgeryToken()
+
+                                            <h2>Add a review </h2>
+                                            <p>Your email address will not be published. Required fields are marked </p>
+                                            <div class="row">
+                                                <div class="col-12">
+                                                    <label for="review_comment">Your review </label>
+                                                    <textarea name="des" id="review_comment" placeholder="Please login before writing feedback"></textarea>
+                                                </div>
+                                                <input type="number" name="id" value="@Model.ProductID" style="display:none;" />
+                                            </div>
+                                            if (customerSession != null)
+                                            {
+                                                <div class="login_submit text-center">
+                                                    <button type="submit">Feedback</button>
+                                                </div>
+                                            }
+                                        }
+                                    </div>
+                                    <div class="tab-pane fade show active" id="reviews" role="tabpanel">
+
+                                        <div class="container">
+                                            <div class="col-md-12">
+                                                <div class="tab-pane fade active show" id="pills-reviews" role="tabpanel" aria-labelledby="pills-reviews-tab">
+
+                                                    <div class="bg-white rounded shadow-sm p-4 mb-4 restaurant-detailed-ratings-and-reviews" style="overflow: auto;">
+
+                                                        <h5 class="mb-1">All Ratings and Reviews</h5>
+
+                                                        @{
+                                                            dem = 0;
+                                                        }
+
+                                                        @foreach (var feeback in ViewBag.Feadback)
+                                                        {
+                                                            dem++;
+                                                            <div class="reviews-members pt-4 pb-4">
+                                                                <div class="media">
+                                                                    <div class="media-body">
+                                                                        <div class="reviews-members-header">
+                                                                            <span class="star-rating float-right">
+                                                                                <a href="#"><i class="icofont-ui-rating active"></i></a>
+                                                                                <a href="#"><i class="icofont-ui-rating active"></i></a>
+                                                                                <a href="#"><i class="icofont-ui-rating active"></i></a>
+                                                                                <a href="#"><i class="icofont-ui-rating active"></i></a>
+                                                                                <a href="#"><i class="icofont-ui-rating"></i></a>
+                                                                            </span>
+                                                                            <h6 class="mb-1"><a class="text-black" href="#">@Html.Action("showname", new { id = feeback.CustomerID })</a></h6>
+                                                                            <p class="text-gray">@feeback.Description</p>
+                                                                        </div>
+                                                                        <div class="reviews-members-body">
+                                                                            <p>@feeback.CreatedDate</p>
+                                                                        </div>
+
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <hr style="margin:-5px 0;">
+                                                        }
+
+                                                        @if (dem == 0)
+                                                        {
+                                                            <p> There are no reviews yet</p>
+                                                        }
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="new_product_area">
+        <div class="block_title">
+            <h3>Products of the same category</h3>
+        </div>
+        <div class="row">
+
+            <div class="product_active owl-carousel">
+                @foreach (var b in ViewBag.category)
+                {
+                    decimal priceSale = b.Price * (100 - b.Discount) / 100;
+                    decimal price = b.Price;
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single_product">
+                            <div class="product_thumb">
+                                <a href="@Url.Action("Product_detail", "Products", new { id=b.ProductID })"><img src="/Image/Upload/Product/@b.Image" style="width:100%;height:270px;" alt=""></a>
+                                @{ if (b.CreatedDate >= DateTime.Now.AddDays(-7))
+                                    {
+                                        <div class="img_icone">
+                                            <img src="~/Image/Client/img/cart/span-new.png" alt="">
+                                        </div>
+                                    } }
+                                <div class="product_action">
+                                    <a href="@Url.Action("CreateCart", "Products", new { id=b.ProductID })"> <i class="fa fa-shopping-cart"></i> Add to cart</a>
+                                </div>
+                            </div>
+                            <div class="product_content">
+                                <span class="product_price">
+                                    $@priceSale.ToString("N0")
+                                    @{ if (b.Discount > 0)
+                                        {
+                                            <i class="price-dc"> $@price.ToString("N0") </i>
+                                        }
+                                    }
+                                </span>
+                                <h3 class="product_title"><a href="@Url.Action("Product_detail", "Products", new { id=b.ProductID })"> @b.Name</a></h3>
+                            </div>
+                            <div class="product_info">
+                                <ul>
+                                    <li><a data-modal='' href="@Url.Action("AddWishList", "Products", new { id=b.ProductID })" title=" Add to Wishlist ">Add to Wishlist</a></li>
+                                    <li><a href="@Url.Action("Product_detail", "Products", new { id=b.ProductID })" title="Quick view">View Detail</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+
+        </div>
+    </div>
+    <div class="new_product_area">
+        <div class="block_title">
+            <h3>Products of the same brand</h3>
+        </div>
+        <div class="row">
+            <div class="product_active owl-carousel">
+                @foreach (var b in ViewBag.Band)
+                {
+                    decimal priceSale = b.Price * (100 - b.Discount) / 100;
+                    decimal price = b.Price;
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single_product">
+                            <div class="product_thumb">
+                                <a href="@Url.Action("Product_detail", "Products", new { id=b.ProductID })"><img src="/Image/Upload/Product/@b.Image" style="width:100%;height:270px;" alt=""></a>
+                                @{ if (b.CreatedDate >= DateTime.Now.AddDays(-7))
+                                    {
+                                        <div class="img_icone">
+                                            <img src="~/Image/Client/img/cart/span-new.png" alt="">
+                                        </div>
+                                    } }
+                                <div class="product_action">
+                                    <a href="@Url.Action("CreateCart", "Products", new { id=b.ProductID })"> <i class="fa fa-shopping-cart"></i> Add to cart</a>
+                                </div>
+                            </div>
+                            <div class="product_content">
+                                <span class="product_price">
+                                    $@priceSale.ToString("N0")
+                                    @{ if (b.Discount > 0)
+                                        {
+                                            <i class="price-dc"> $@price.ToString("N0") </i>
+                                        }
+                                    }
+                                </span>
+                                <h3 class="product_title"><a href="@Url.Action("Product_detail", "Products", new { id=b.ProductID })"> @b.Name</a></h3>
+                            </div>
+                            <div class="product_info">
+                                <ul>
+                                    <li><a href="@Url.Action("AddWishList", "Products", new { id=b.ProductID })" title=" Add to Wishlist ">Add to Wishlist</a></li>
+                                    <li><a href="@Url.Action("Product_detail", "Products", new { id=b.ProductID })" title="Quick view">View Detail</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                }
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<style>
+    .price-dc {
+        text-decoration: line-through;
+        color: #00BBA6;
+        font-size: 12px
+    }
+</style>

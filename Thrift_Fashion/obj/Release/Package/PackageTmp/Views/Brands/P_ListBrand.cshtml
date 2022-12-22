@@ -1,0 +1,9 @@
+﻿
+@model List<Thrift_Fashion.Models.Brand>
+
+<ul>
+    @foreach (Thrift_Fashion.Models.Brand item in Model)
+    {
+        <li><a href="/Products/ShowbyBrand/@item.BrandID">@item.Name</a></li>
+    }
+</ul>

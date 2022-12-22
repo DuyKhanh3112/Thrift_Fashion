@@ -1,0 +1,82 @@
+﻿@model IEnumerable<Thrift_Fashion.Models.Cart>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!--shopping cart area start -->
+<div class="shopping_cart_area">
+    <form action="#">
+        <div class="row">
+            <div class="col-12">
+                <div class="table_desc">
+                    <div class="cart_page table-responsive">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th class="product_thumb">@Html.DisplayNameFor(model => model.Product.Image)</th>
+                                    <th class="product_name">@Html.DisplayNameFor(model => model.Product.Name)</th>
+                                    <th class="product-price">@Html.DisplayNameFor(model => model.Product.Price)</th>
+                                    <th class="product_quantity">@Html.DisplayNameFor(model => model.Product.Discount)</th>
+                                    <th class="product_quantity">@Html.DisplayNameFor(model => model.Quantity)</th>
+                                    <th class="product_total">Total</th>
+                                    <th class="product_remove"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @{ decimal amount = 0; int count = 0;}
+                                @foreach (var item in Model)
+                                {
+                                    count++;
+                                    decimal total = item.Quantity * item.Product.Price * (100 - item.Product.Discount) / 100;
+                                    decimal price = item.Product.Price;
+                                    <tr>
+                                        <td class="product_thumb"> <img src="/Image/Upload/Product/@item.Product.Image" height="100" /> </td>
+                                        <td class="product_name"> @Html.DisplayFor(modelItem => item.Product.Name)</td>
+                                        <td class="product-price">$@price.ToString("N0")</td>
+                                        <td class="product-price">@Html.DisplayFor(modelItem => item.Product.Discount)%</td>
+                                        <td class="product_quantity"> 
+                                            <div class="col-3"><a href="@Url.Action("reduceCart", "Carts", new { id=item.CartID })" class="btn btn-default"> - </a></div>
+                                            <div class="col-5 text-center"> @Html.DisplayFor(modelItem => item.Quantity) </div>
+                                            <div class="col-3"><a href="@Url.Action("plusCart", "Carts", new { id=item.CartID })" class="btn-default"> + </a></div>
+                                        </td>
+                                        <td class="product_total">$@total.ToString("N0") </td>
+                                        <td class="product_remove"><a href="@Url.Action("DeleteCart", "Carts", new { id=item.CartID })"><i class="fa fa-trash-o"></i></a></td>
+                                        @{amount += total;}
+                                    </tr>
+                                }
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--coupon code area start-->
+        @{ if (count != 0)
+            {
+                <div class="coupon_area">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="coupon_code">
+                                <h3>Cart Totals</h3>
+                                <div class="coupon_inner">
+                                    <div class="cart_subtotal">
+                                        <p>Total</p>
+                                        <p class="cart_amount">$@amount.ToString("N0")</p>
+                                    </div>
+                                    <div class="checkout_btn" id="btnCheckout">
+                                        <a href="/Carts/Checkout">Proceed to Checkout</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>}
+        }
+        <!--coupon code area end-->
+    </form>
+</div>

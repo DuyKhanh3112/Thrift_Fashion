@@ -1,0 +1,164 @@
+﻿@model IEnumerable<Thrift_Fashion.Models.Product>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="shop_toolbar mb-35">
+    @{
+        if (TempData["key"] == null)
+        {
+            TempData["key"] = 0;
+        }
+    }
+    <div class="page_amount">
+        <div class="select_option">
+            @using (Html.BeginForm("ShowAllProduct", "Products", FormMethod.Post, new { enctype = "multipart/form-data" }))
+            {
+                @Html.AntiForgeryToken()
+                <label>Filter By</label>
+                <select name="filterby" id="short" onchange="this.form.submit();">
+                    <option value="0">All</option>
+                    <option @(TempData["key"].ToString() == "1" ? "selected" : "") value="1"> < $99 </option>
+                    <option @(TempData["key"].ToString() == "2" ? "selected" : "") value="2">$100 - $199</option>
+                    <option @(TempData["key"].ToString() == "3" ? "selected" : "") value="3">$200 - $299</option>
+                    <option @(TempData["key"].ToString() == "4" ? "selected" : "") value="4">$300 - $399</option>
+                    <option @(TempData["key"].ToString() == "5" ? "selected" : "") value="5">> $400</option>
+                </select>
+            }
+        </div>
+
+    </div>
+    <div class="list_button">
+        <ul class="nav" role="tablist">
+            <li>
+                <a class="active" data-toggle="tab" href="#large" role="tab" aria-controls="large" aria-selected="true"><i class="fa fa-th-large"></i></a>
+            </li>
+            <li>
+                <a data-toggle="tab" href="#list" role="tab" aria-controls="list" aria-selected="false"><i class="fa fa-th-list"></i></a>
+            </li>
+        </ul>
+    </div>
+
+
+    <div class="select_option">
+        @using (Html.BeginForm("ShowAllProduct", "Products", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            @Html.AntiForgeryToken()
+            <label>Sort By</label>
+            <select name="filterby" id="short" onchange="this.form.submit();">
+                <option value="0">All</option>
+                <option @(TempData["key"].ToString() == "7" ? "selected" : "") value="7">Price: Ascending</option>
+                <option @(TempData["key"].ToString() == "8" ? "selected" : "") value="8">Price: Descending </option>
+                <option @(TempData["key"].ToString() == "9" ? "selected" : "") value="9">Date: Ascending</option>
+                <option @(TempData["key"].ToString() == "10" ? "selected" : "") value="10">Date: Descending </option>
+            </select>
+        }
+    </div>
+</div>
+<div class="shop_tab_product">
+    <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="large" role="tabpanel">
+            <div class="row">
+                @foreach (var b in Model)
+                {
+                    decimal priceSale = b.Price * (100 - b.Discount) / 100;
+                    decimal price = b.Price;
+                    <div class="col-lg-3 col-md-6">
+                        <div class="single_product">
+                            <div class="product_thumb">
+                                <a href="@Url.Action("Product_detail", "Products", new { id=b.ProductID })"><img src="/Image/Upload/Product/@b.Image" style="width:100%;height:270px;" alt=""></a>
+                                @{ if (b.CreatedDate >= DateTime.Now.AddDays(-7))
+                                    {
+                                        <div class="img_icone">
+                                            <img src="~/Image/Client/img/cart/span-new.png" alt="">
+                                        </div>
+                                    } }
+                                <div class="product_action">
+                                    <a href="@Url.Action("CreateCart", "Products", new { id=b.ProductID })"> <i class="fa fa-shopping-cart"></i> Add to cart</a>
+                                </div>
+                            </div>
+                            <div class="product_content">
+                                <span class="product_price">
+                                    $@priceSale.ToString("N0")
+                                    @{ if (b.Discount != 0)
+                                        {
+                                            <i class="price-dc"> $@price.ToString("N0") </i>
+                                        }
+                                    }
+                                </span>
+                                <h3 class="product_title"><a href="@Url.Action("Product_detail", "Products", new { id=b.ProductID })"> @b.Name</a></h3>
+                            </div>
+                            <div class="product_info">
+                                <ul>
+                                    <li><a data-modal='' href="@Url.Action("AddWishList", "Products", new { id=b.ProductID })" title=" Add to Wishlist ">Add to Wishlist</a></li>
+                                    <li><a href="@Url.Action("Product_detail", "Products", new { id=b.ProductID })" title="Quick view">View Detail</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+        <div class="tab-pane fade" id="list" role="tabpanel">
+            @foreach (var p in Model)
+            {
+                decimal priceSale = p.Price * (100 - p.Discount) / 100;
+                decimal price = p.Price;
+                <div class="product_list_item mb-35">
+                    <div class="row ">
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="product_thumb">
+                                <a href="@Url.Action("Product_detail", "Products", new { id=p.ProductID })"><img src="/Image/Upload/Product/@p.Image" alt="" style="width:100%;height:300px;"></a>
+                                @{ if (p.CreatedDate >= DateTime.Now.AddDays(-7))
+                                    {
+                                        <div class="img_icone">
+                                            <img src="~/Image/Client/img/cart/span-new.png" alt="">
+                                        </div>
+                                    } }
+                            </div>
+                        </div>
+                        <div class="col-lg-9 col-md-6 col-sm-6">
+                            <div class="list_product_content">
+                                <div class="list_title">
+                                    <h3><a href="@Url.Action("Product_detail", "Products", new { id=p.ProductID })">@p.Name</a></h3>
+                                </div>
+                                <p class="design"> @p.Description</p>
+                                <div class="content_price">
+                                    <span class="product-price">
+                                       $@priceSale.ToString("N0")
+
+                                        @{ if (p.Discount != 0)
+                                            {
+                                                <i class="price-dc"> $@price.ToString("N0") </i>
+                                            }
+                                        }
+                                    </span>
+                                </div>
+                                <div class="content_price">
+                                    <span>@p.CreatedDate.ToShortDateString()</span>
+
+                                </div>
+                                <div class="add_links">
+                                    <ul>
+                                        <li><a href="@Url.Action("CreateCart", "Products", new { id=p.ProductID })" title="add to cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+                                        <li><a href="@Url.Action("AddWishList", "Products", new { id=p.ProductID })" title="add to wishlist"><i class="fa fa-heart" aria-hidden="true"></i></a></li>
+                                        <li><a href="@Url.Action("Product_detail", "Products", new { id=p.ProductID })" title="Quick view"><i class="fa fa-eye" aria-hidden="true"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+        <style>
+            .price-dc {
+                text-decoration: line-through;
+                color: #00BBA6;
+                font-size: 12px
+            }
+        </style>
+    </div>
+</div>    

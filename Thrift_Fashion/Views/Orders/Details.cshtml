@@ -1,0 +1,157 @@
+﻿@model Thrift_Fashion.Models.Order
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutServer.cshtml";
+}
+
+<!-- Single pro tab review Start-->
+<div class="single-pro-review-area mt-t-30 mg-b-15">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="product-payment-inner-st">
+                    <div id="myTabContent" class="tab-content custom-product-edit">
+                        <div class="product-tab-list tab-pane fade active in" id="description">
+                            <div class="row">
+                                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                    <div class="pull-left">
+                                        <h1>Order Detail</h1>
+                                    </div>
+                                    <div class="pull-right">
+                                        <a title="Back to list" onclick="window.history.go(-1)" aria-expanded="false" class="btn btn-primary waves-effect waves-light">
+                                            <span class="fa fa-chevron-left" aria-hidden="true"></span>
+                                            Back
+                                        </a>
+                                    </div>
+                                    <div class="review-content-section">
+                                        <div id="dropzone1" class="pro-ad">
+                                            <br />
+                                            <hr />
+                                            @using (Html.BeginForm())
+                                            {
+                                                @Html.AntiForgeryToken()
+                                                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                                                @Html.HiddenFor(model => model.OrderID)
+                                                <form action="#" class="dropzone dropzone-custom needsclick add-professors" id="demo1-upload">
+                                                    <div class="row">
+                                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                                            <div class="form-group">
+                                                                @Html.LabelFor(model => model.OrderID, htmlAttributes: new { @class = "control-label col-md-10" })
+                                                                @Html.EditorFor(model => model.OrderID, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                                                                @Html.ValidationMessageFor(model => model.OrderID, "", new { @class = "text-danger" })
+                                                            </div>
+                                                            <div class="form-group">
+                                                                @Html.LabelFor(model => model.CustomerID, htmlAttributes: new { @class = "control-label col-md-10" })
+                                                                @Html.EditorFor(model => model.CustomerID, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                                                                @Html.ValidationMessageFor(model => model.CustomerID, "", new { @class = "text-danger" })
+                                                            </div>
+                                                            <div class="form-group">
+                                                                @Html.LabelFor(model => model.AddressID, htmlAttributes: new { @class = "control-label col-md-10" })
+                                                                @Html.EditorFor(model => model.AddressID, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                                                                @Html.ValidationMessageFor(model => model.AddressID, "", new { @class = "text-danger" })
+                                                            </div>
+                                                            <div class="form-group">
+                                                                @Html.LabelFor(model => model.OrderDate, htmlAttributes: new { @class = "control-label col-md-10" })
+                                                                @Html.EditorFor(model => model.OrderDate, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                                                                @Html.ValidationMessageFor(model => model.OrderDate, "", new { @class = "text-danger" })
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                                            <div class="form-group">
+                                                                @Html.LabelFor(model => model.ShipDate, htmlAttributes: new { @class = "control-label col-md-10" })
+                                                                @Html.EditorFor(model => model.ShipDate, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                                                                @Html.ValidationMessageFor(model => model.ShipDate, "", new { @class = "text-danger" })
+                                                            </div>
+                                                            <div class="form-group">
+                                                                @Html.LabelFor(model => model.Total, htmlAttributes: new { @class = "control-label col-md-10" })
+                                                                @{
+                                                                    var format = System.Globalization.CultureInfo.GetCultureInfo("en-US");
+                                                                    <input type="text" class="form-control" value="@String.Format(format, "{0:c0}", Model.Total)" readonly />
+                                                                }
+                                                                @Html.ValidationMessageFor(model => model.Total, "", new { @class = "text-danger" })
+                                                            </div>
+                                                            <div class="form-group">
+                                                                @Html.LabelFor(model => model.Note, htmlAttributes: new { @class = "control-label col-md-10" })
+                                                                @Html.EditorFor(model => model.Note, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly" } })
+                                                                @Html.ValidationMessageFor(model => model.Note, "", new { @class = "text-danger" })
+                                                            </div>
+                                                            <div class="form-group">
+                                                                @Html.LabelFor(model => model.Status, htmlAttributes: new { @class = "control-label col-md-10" })
+                                                                @{
+                                                                    if (Model.Status == 0)
+                                                                    {
+                                                                        <input type="text" class="form-control" value="Wait for confirmation" readonly />
+                                                                    }
+                                                                    else if (Model.Status == 1)
+                                                                    {
+                                                                        <input type="text" class="form-control" value="Delivering" readonly />
+                                                                    }
+                                                                    else if (Model.Status == -1)
+                                                                    {
+                                                                        <input type="text" class="form-control" value="Cancel" readonly />
+                                                                    }
+                                                                    else
+                                                                    {
+                                                                        <input type="text" class="form-control" value="Delivered" readonly />
+                                                                    }
+                                                                }
+                                                                @Html.ValidationMessageFor(model => model.Status, "", new { @class = "text-danger" })
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </form>
+                                            }
+                                        </div>
+
+                                        <br /><br />
+                                        <h4>Order Details</h4>
+                                        <hr />
+                                        <table class="table" border="1">
+                                            <thead>
+                                                <tr>
+                                                    <th scope="col">
+                                                        No.
+                                                    </th>
+                                                    <th scope="col">
+                                                        Product's Name
+                                                    </th>
+                                                    <th scope="col">
+                                                        Quantity
+                                                    </th>
+                                                    <th scope="col">
+                                                        Price
+                                                    </th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                @{ 
+                                                    int count = 0;
+                                                }
+                                                @foreach (var o in ViewBag.listorderdetail)
+                                                {
+                                                    count++;
+                                                    <tr>
+                                                        <td>@count</td>
+                                                        <td>@o.ProductID</td>
+                                                        <td>@o.Quantity</td>
+                                                        <td>
+                                                            @{
+                                                                var format = System.Globalization.CultureInfo.GetCultureInfo("en-US");
+                                                                @String.Format(format, "{0:c0}", @o.Price);
+                                                            }
+                                                        </td>
+                                                    </tr>
+                                                }
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

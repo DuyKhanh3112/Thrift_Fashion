@@ -1,0 +1,279 @@
+﻿@{
+    var customerSession = (Thrift_Fashion.Models.VirtualModel.UserSession)Session[Thrift_Fashion.Common.Constants.CUSTOMER_SESSION];
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="~/Image/Client/img/Logo.jpg">
+    <!-- all css here -->
+    <link rel="stylesheet" href="~/Content/Client/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/Content/Client/css/plugin.css">
+    <link rel="stylesheet" href="~/Content/Client/css/bundle.css">
+    <link rel="stylesheet" href="~/Content/Client/css/styleclient.css">
+    <link rel="stylesheet" href="~/Content/Client/css/responsive.css">
+    <script src="~/Scripts/Client/js/vendor/modernizr-2.8.3.min.js"></script>
+    @*@Styles.Render("~/Content/css")
+        @Scripts.Render("~/bundles/modernizr")*@
+</head>
+<body>
+    <!--pos page start-->
+    <div class="pos_page">
+        <div class="container">
+            <!--pos page inner-->
+            <div class="pos_page_inner">
+                <!--header area -->
+                <div class="header_area">
+                    <!--header top-->
+                    <div class="header_top">
+                        <div class="row align-items-center">
+                            <div class="col-lg-6 col-md-6">
+
+                            </div>
+                            <div class="col-lg-6 col-md-6">
+                                <div class="header_links">
+                                    <ul>
+                                        <li><a href="/Wishlists/Index" title="My wishlist">My wishlist</a></li>
+                                        <li><a href="/Carts/Index" title="My cart">My cart</a></li>
+                                        @if (customerSession == null)
+                                        {
+                                            <li><a href="/Customers/CustomerRegister" title="Register">Register</a></li>
+                                            <li><a href="/Customers/CustomerLogin" title="Login">Login</a></li>
+                                        }
+                                        else
+                                        {
+                                            <li><a href="/Customers/Profile" title="@customerSession.Username">@customerSession.Username</a></li>
+                                            <li><a href="/Customers/Profile" title="Setting">Setting</a></li>
+                                            <li><a href="/Customers/CustomerLogout" title="Logout">Logout</a></li>
+                                        }
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--header top end-->
+                    <!--header middel-->
+                    <div class="header_middel">
+                        <div class="row align-items-center">
+                            <!--logo start-->
+                            <div class="col-lg-5 col-md-5">
+                                <div class="logo">
+                                    <a href="/Home/Index"><img src="~/Image/Client/img/Logo.jpg" alt="" height="120" width="120"></a>
+                                </div>
+                            </div>
+                            <!--logo end-->
+                            <div class="col-lg-7 col-md-7">
+                                <div class="header_right_info">
+                                    <div class="search_bar">
+                                        <form action="/Products/Search" method="get">
+                                            <input name="keyword" id="txtSearch" placeholder="Search..." type="text">
+                                            <button id="btnSearch" type="submit"><i class="fa fa-search"></i></button>
+                                        </form>
+                                    </div>
+                                   
+                                        <!--mini cart-->
+                                       @{Html.RenderAction("P_Cart", "Carts"); }
+                                        <!--mini cart end-->
+                                   
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--header middel end-->
+                    <div class="header_bottom">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="main_menu_inner">
+                                    <div class="main_menu d-none d-lg-block">
+                                        <nav>
+                                            <ul>
+
+                                                <li class="@(ViewContext.RouteData.Values["Action"].ToString() == "Index" ? "active" : "")">
+                                                    <a href="/Home/Index">Home</a>
+                                                </li>
+                                                <li class="@(ViewContext.RouteData.Values["Action"].ToString() == "ShowAllProduct" ? "active" : "")">
+                                                    <a href="/Products/ShowAllProduct">Shop</a>
+                                                </li>
+                                                <li class="@(ViewContext.RouteData.Values["Action"].ToString() == "ShowbyBrand" ? "active" : "")">
+                                                    <a href="#">Brand</a>
+                                                    <div class="mega_menu jewelry">
+                                                        <div class="mega_items jewelry">
+                                                            @{ Html.RenderAction("P_ListBrand", "Brands");}
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="@(ViewContext.RouteData.Values["Action"].ToString() == "ShowbyCategory" ? "active" : "")">
+                                                    <a href="#">Category</a>
+                                                    <div class="mega_menu jewelry">
+                                                        <div class="mega_items jewelry">
+                                                            @{ Html.RenderAction("P_ListCate", "Categories");}
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="@(ViewContext.RouteData.Values["Action"].ToString() == "About" ? "active" : "")">
+                                                    <a href="/Home/About">About Us</a>
+                                                </li>
+                                                <li class="@(ViewContext.RouteData.Values["Action"].ToString() == "Contact" ? "active" : "")">
+                                                    <a href="/Home/Contact">Contact Us</a>
+                                                </li>
+
+                                                <li class="@(ViewContext.RouteData.Values["Action"].ToString() == "Feedback" ? "active" : "")">
+                                                    <a href="/Home/Feedback">Feedback</a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                    <div class="mobile-menu d-lg-none">
+                                        <nav>
+                                            <ul>
+                                                <li>
+                                                    <a href="/Home/Index">Home</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/Products/ShowAllProduct">Shop</a>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Brand</a>
+                                                    <div>
+                                                        <div>
+                                                            @{ Html.RenderAction("P_ListBrand", "Brands");}
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a href="#">Category</a>
+                                                    <div>
+                                                        <div>
+
+                                                            @{ Html.RenderAction("P_ListCate", "Categories");}
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <a href="/Home/About">About Us</a>
+                                                </li>
+                                                <li>
+                                                    <a href="/Home/Contact">Contact Us</a>
+                                                </li>
+
+                                                <li>
+                                                    <a href="/Home/Feedback">Feedback</a>
+                                                </li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--header end -->
+
+                @RenderBody()
+            </div>
+
+        </div>
+    </div>
+    <!--footer area start-->
+    <div class="footer_area">
+        <div class="footer_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="footer_widget">
+                            <h3>About us</h3>
+                            <p>Provides a facility for easy shopping of used apparel in new condition, making it convenient for customers to shop from anywhere, anytime.</p>
+                            <div class="footer_widget_contect">
+                                <a target="_blank" href="https://www.google.com/maps/place/CUSC+-+Cantho+University+Software+Center/10.0339056,105.7776849,17z/data=!3m1!4b1!4m5!3m4!1s0x31a0881f9a732075:0xfa43fbeb2b00ca73!8m2!3d10.0339003!4d105.7798736?hl=vi-VN"><i class="fa fa-map-marker" aria-hidden="true"></i> 01 Ly Tu Trong, Ninh Kieu, Can Tho, Vietnam</a><br />
+                                <a href="tel:+842923835581"><i class="fa fa-phone" aria-hidden="true"></i> (+84) 292 383 5581</a><br />
+                                <a href="mailto:ThriftFashion@gmail.com?subject=Thrift Fashion"><i class="fa fa-envelope" aria-hidden="true"></i> ThriftFashion@gmail.com </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="footer_widget">
+                            <h3>My Account</h3>
+                            <ul>
+                                <li><a href="@Url.Action("Profile","Customers")">Personal Information</a></li>
+                                <li><a href="@Url.Action("ChangePassword","Customers")">Change Password</a></li>
+                                <li><a href="@Url.Action("ShowAllOrder","Orders")">Orders</a></li>
+                                <li><a href="/Addresses/Address">Addresses</a></li>
+                                <li><a href="/Customers/CustomerLogout">Logout</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="footer_widget">
+                            <h3>Informations</h3>
+                            <ul>
+                                <li><a href="/Home/Index">Home</a></li>
+                                <li><a href="/Products/ShowAllProduct">Shop</a></li>
+                                <li><a href="/Home/About">About Us</a></li>
+                                <li><a href="/Home/Contact">Contact Us</a></li>
+                                <li><a href="/Home/Feedback">Feedback</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6">
+                        <div class="footer_widget">
+                            <h3>Extras</h3>
+                            <ul>
+                                <li><a href="/Wishlists/Index">My wishlist</a></li>
+                                <li><a href="/Carts/Index">My cart</a></li>
+                                <li><a href="/Customers/CustomerRegister">Register</a></li>
+                                <li><a href="/Customers/CustomerLogin">Login</a></li>
+                                <li><a href="/Customers/Profile">Setting</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_bottom">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="copyright_area">
+                            <p><a href="/">THRIFT FASHION  © 2022</a></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="footer_social text-right">
+                            <ul>
+                                <li><a target="_blank" href="https://www.facebook.com/CUSC.CE/"><i class="fa fa-facebook"></i></a></li>
+                                <li><a target="_blank" href="https://www.instagram.com/aptech.cantho/"><i class="fa fa-instagram"></i></a></li>
+                                <li><a target="_blank" href="https://aptechcantho.cusc.vn/"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+                                <li><a target="_blank" href="https://www.youtube.com/c/CUSCAPTECHCHANNEL"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer area end-->
+    <!-- all js here -->
+    <script src="~/Scripts/jquery.min.js"></script>
+    @*<script src="~/Scripts/Client/js/vendor/jquery-1.12.0.min.js"></script>*@
+    <script src="~/Scripts/Client/js/popper.js"></script>
+    <script src="~/Scripts/Client/js/bootstrap.min.js"></script>
+    <script src="~/Scripts/Client/js/ajax-mail.js"></script>
+    <script src="~/Scripts/Client/js/plugins.js"></script>
+    <script src="~/Scripts/Client/js/main.js"></script>
+    <script src="~/Scripts/jquery-ui.js"></script>
+
+    <script src="~/Scripts/Client/js/Product/SearchJS.js"></script>
+
+    <!--SweetAlert-->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    @*@Scripts.Render("~/bundles/jquery")*@
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

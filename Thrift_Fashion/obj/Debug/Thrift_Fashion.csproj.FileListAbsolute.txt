@@ -1,0 +1,755 @@
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\Thrift_Fashion.dll.config
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\Thrift_Fashion.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\Thrift_Fashion.pdb
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csc.exe
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csc.exe.config
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csc.rsp
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csi.exe
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csi.exe.config
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csi.rsp
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.AppContext.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Collections.Immutable.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Console.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Globalization.Calendars.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.IO.Compression.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.IO.FileSystem.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Net.Http.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Net.Sockets.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Reflection.Metadata.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.ValueTuple.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Xml.XPath.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\vbc.exe
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\vbc.exe.config
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\vbc.rsp
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\VBCSCompiler.exe
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\VBCSCompiler.exe.config
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\Antlr3.Runtime.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\Microsoft.Web.Infrastructure.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\Newtonsoft.Json.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Helpers.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Mvc.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Optimization.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Razor.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.Deployment.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.Razor.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\WebGrease.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Helpers.xml
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Mvc.xml
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Optimization.xml
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Razor.xml
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.xml
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.Deployment.xml
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.Razor.xml
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\Newtonsoft.Json.xml
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\Antlr3.Runtime.pdb
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\obj\Debug\Thrift_Fashion.csproj.AssemblyReference.cache
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\obj\Debug\Thrift_Fashion.csproj.CoreCompileInputs.cache
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\obj\Debug\Thrift_Fashion.csproj.CopyComplete
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\obj\Debug\Thrift_Fashion.dll
+D:\Techwiz3\Thrift_Fashion\Thrift_Fashion\obj\Debug\Thrift_Fashion.pdb
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\Thrift_Fashion.dll.config
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\Thrift_Fashion.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\Thrift_Fashion.pdb
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csc.exe
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csc.exe.config
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csc.rsp
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csi.exe
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csi.exe.config
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csi.rsp
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.AppContext.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Console.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.IO.Compression.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Net.Http.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.ValueTuple.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\vbc.exe
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\vbc.exe.config
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\vbc.rsp
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\VBCSCompiler.exe
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\Antlr3.Runtime.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\Newtonsoft.Json.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Helpers.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Mvc.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Optimization.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Razor.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.Razor.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\WebGrease.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Helpers.xml
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Mvc.xml
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Optimization.xml
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Razor.xml
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.xml
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.Razor.xml
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\Newtonsoft.Json.xml
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\Antlr3.Runtime.pdb
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\obj\Debug\Thrift_Fashion.csprojAssemblyReference.cache
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\obj\Debug\Thrift_Fashion.csproj.CoreCompileInputs.cache
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\obj\Debug\Thrift_Fashion.csproj.CopyComplete
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\obj\Debug\Thrift_Fashion.dll
+C:\Users\Duy Khanh\Desktop\Techwiz3\Thrift_Fashion\Thrift_Fashion\obj\Debug\Thrift_Fashion.pdb
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\Thrift_Fashion.dll.config
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\Thrift_Fashion.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\Thrift_Fashion.pdb
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csc.exe
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csc.exe.config
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csc.rsp
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csi.exe
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csi.exe.config
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csi.rsp
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.AppContext.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Collections.Immutable.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Console.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Globalization.Calendars.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.IO.Compression.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.IO.FileSystem.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Net.Http.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Net.Sockets.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Reflection.Metadata.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.ValueTuple.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Xml.XPath.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\vbc.exe
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\vbc.exe.config
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\vbc.rsp
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\VBCSCompiler.exe
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\VBCSCompiler.exe.config
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\Antlr3.Runtime.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\Microsoft.Web.Infrastructure.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\Newtonsoft.Json.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Helpers.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Mvc.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Optimization.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Razor.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.Deployment.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.Razor.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\WebGrease.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Helpers.xml
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Mvc.xml
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Optimization.xml
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Razor.xml
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.xml
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.Deployment.xml
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.Razor.xml
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\Newtonsoft.Json.xml
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\Antlr3.Runtime.pdb
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\obj\Debug\Thrift_Fashion.csproj.AssemblyReference.cache
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\obj\Debug\Thrift_Fashion.csproj.CoreCompileInputs.cache
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\obj\Debug\Thrift_Fashion.csproj.CopyComplete
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\obj\Debug\Thrift_Fashion.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\obj\Debug\Thrift_Fashion.pdb
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\EntityFramework.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\EntityFramework.SqlServer.dll
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\EntityFramework.xml
+D:\Workspace\Techwiz3\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\EntityFramework.SqlServer.xml
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\Thrift_Fashion.dll.config
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\Thrift_Fashion.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\Thrift_Fashion.pdb
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csc.exe
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csc.exe.config
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csc.rsp
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csi.exe
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csi.exe.config
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csi.rsp
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.AppContext.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Console.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.IO.Compression.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Net.Http.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Net.Sockets.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.ValueTuple.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Xml.XPath.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\vbc.exe
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\vbc.exe.config
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\vbc.rsp
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\VBCSCompiler.exe
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\Antlr3.Runtime.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\EntityFramework.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\EntityFramework.SqlServer.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\Newtonsoft.Json.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Helpers.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Mvc.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Optimization.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Razor.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.Deployment.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.Razor.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\WebGrease.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\EntityFramework.xml
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\EntityFramework.SqlServer.xml
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Helpers.xml
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Mvc.xml
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Optimization.xml
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Razor.xml
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.xml
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.Deployment.xml
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.Razor.xml
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\Newtonsoft.Json.xml
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\Antlr3.Runtime.pdb
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\obj\Debug\Thrift_Fashion.csproj.AssemblyReference.cache
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\obj\Debug\Thrift_Fashion.csproj.CoreCompileInputs.cache
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\obj\Debug\Thrift_Fashion.csproj.CopyComplete
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\obj\Debug\Thrift_Fashion.dll
+C:\Users\nttha\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\obj\Debug\Thrift_Fashion.pdb
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\Thrift_Fashion.dll.config
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\Thrift_Fashion.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\Thrift_Fashion.pdb
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csc.exe
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csc.exe.config
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csc.rsp
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csi.exe
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csi.exe.config
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csi.rsp
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.AppContext.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Console.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.IO.Compression.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Net.Http.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Net.Sockets.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.ValueTuple.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Xml.XPath.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\vbc.exe
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\vbc.exe.config
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\vbc.rsp
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\VBCSCompiler.exe
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\Antlr3.Runtime.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\EntityFramework.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\EntityFramework.SqlServer.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\Newtonsoft.Json.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Helpers.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Mvc.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Optimization.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Razor.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.Deployment.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.Razor.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\WebGrease.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\EntityFramework.xml
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\EntityFramework.SqlServer.xml
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Helpers.xml
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Mvc.xml
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Optimization.xml
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Razor.xml
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.xml
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.Deployment.xml
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.Razor.xml
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\Newtonsoft.Json.xml
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\Antlr3.Runtime.pdb
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\obj\Debug\Thrift_Fashion.csproj.AssemblyReference.cache
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\obj\Debug\Thrift_Fashion.csproj.CoreCompileInputs.cache
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\obj\Debug\Thrift_Fashion.csproj.CopyComplete
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\obj\Debug\Thrift_Fashion.dll
+C:\Users\OS\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\obj\Debug\Thrift_Fashion.pdb
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\obj\Debug\Thrift_Fashion.csproj.AssemblyReference.cache
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\obj\Debug\Thrift_Fashion.csproj.CoreCompileInputs.cache
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\Thrift_Fashion.dll.config
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\Thrift_Fashion.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\Thrift_Fashion.pdb
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csc.exe
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csc.exe.config
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csc.rsp
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csi.exe
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csi.exe.config
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csi.rsp
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.AppContext.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Collections.Immutable.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Console.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Globalization.Calendars.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.IO.Compression.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.IO.FileSystem.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Net.Http.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Net.Sockets.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Reflection.Metadata.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.ValueTuple.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Xml.XPath.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\vbc.exe
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\vbc.exe.config
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\vbc.rsp
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\VBCSCompiler.exe
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\roslyn\VBCSCompiler.exe.config
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\Antlr3.Runtime.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\BotDetect.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\BotDetect.Web.Mvc.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\EntityFramework.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\EntityFramework.SqlServer.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\Microsoft.Web.Infrastructure.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\Newtonsoft.Json.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Data.SQLite.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Helpers.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Mvc.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Optimization.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Razor.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.Deployment.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.Razor.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\WebGrease.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\EntityFramework.xml
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\EntityFramework.SqlServer.xml
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Data.SQLite.xml
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Helpers.xml
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Mvc.xml
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Optimization.xml
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Razor.xml
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.xml
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.Deployment.xml
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.Razor.xml
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\Newtonsoft.Json.xml
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\Antlr3.Runtime.pdb
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\obj\Debug\Thrift_Fashion.csproj.CopyComplete
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\obj\Debug\Thrift_Fashion.dll
+D:\Workspace\Techwiz3\Thrift_Fashion\Thrift_Fashion\obj\Debug\Thrift_Fashion.pdb
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\Thrift_Fashion.dll.config
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\Thrift_Fashion.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\Thrift_Fashion.pdb
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csc.exe
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csc.exe.config
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csc.rsp
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csi.exe
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csi.exe.config
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csi.rsp
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.AppContext.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Console.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.IO.Compression.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Net.Http.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.ValueTuple.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\vbc.exe
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\vbc.exe.config
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\vbc.rsp
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\VBCSCompiler.exe
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\Antlr3.Runtime.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\BotDetect.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\BotDetect.Web.Mvc.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\EntityFramework.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\EntityFramework.SqlServer.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\Newtonsoft.Json.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\System.Data.SQLite.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Helpers.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Mvc.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Optimization.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Razor.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.Razor.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\WebGrease.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\EntityFramework.xml
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\EntityFramework.SqlServer.xml
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\System.Data.SQLite.xml
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Helpers.xml
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Mvc.xml
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Optimization.xml
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Razor.xml
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.xml
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.Razor.xml
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\Newtonsoft.Json.xml
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\Antlr3.Runtime.pdb
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\obj\Debug\Thrift_Fashion.csproj.CoreCompileInputs.cache
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\obj\Debug\Thrift_Fashion.csproj.CopyComplete
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\obj\Debug\Thrift_Fashion.dll
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\obj\Debug\Thrift_Fashion.pdb
+C:\Users\Duy Khanh\Desktop\Thrift_Fashion\Thrift_Fashion\obj\Debug\Thrift_Fashion.csprojAssemblyReference.cache
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\Thrift_Fashion.dll.config
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\Thrift_Fashion.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\Thrift_Fashion.pdb
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csc.exe
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csc.exe.config
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csc.rsp
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csi.exe
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csi.exe.config
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csi.rsp
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.AppContext.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Console.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.IO.Compression.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Net.Http.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Net.Sockets.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.ValueTuple.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\vbc.exe
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\vbc.exe.config
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\vbc.rsp
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\VBCSCompiler.exe
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\Antlr3.Runtime.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\BotDetect.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\BotDetect.Web.Mvc.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\EntityFramework.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\Newtonsoft.Json.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Data.SQLite.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Helpers.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Mvc.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Optimization.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Razor.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.Razor.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\WebGrease.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\EntityFramework.xml
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Data.SQLite.xml
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Helpers.xml
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Mvc.xml
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Optimization.xml
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Razor.xml
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.xml
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.Razor.xml
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\Antlr3.Runtime.pdb
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\obj\Debug\Thrift_Fashion.csproj.AssemblyReference.cache
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\obj\Debug\Thrift_Fashion.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\obj\Debug\Thrift_Fashion.csproj.CopyComplete
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\obj\Debug\Thrift_Fashion.dll
+C:\Users\Administrator\Downloads\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\obj\Debug\Thrift_Fashion.pdb
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\Thrift_Fashion.dll.config
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\Thrift_Fashion.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\Thrift_Fashion.pdb
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csc.exe
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csc.exe.config
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csc.rsp
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csi.exe
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csi.exe.config
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\csi.rsp
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.AppContext.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Collections.Immutable.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Console.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Globalization.Calendars.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.IO.Compression.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.IO.FileSystem.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Net.Http.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Net.Sockets.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Reflection.Metadata.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.ValueTuple.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Xml.XPath.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\vbc.exe
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\vbc.exe.config
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\vbc.rsp
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\VBCSCompiler.exe
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\roslyn\VBCSCompiler.exe.config
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\Antlr3.Runtime.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\BotDetect.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\BotDetect.Web.Mvc.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\EntityFramework.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\EntityFramework.SqlServer.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\Microsoft.Web.Infrastructure.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\Newtonsoft.Json.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Data.SQLite.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Helpers.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Mvc.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Optimization.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Razor.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.Deployment.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.Razor.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\WebGrease.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\EntityFramework.xml
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\EntityFramework.SqlServer.xml
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Data.SQLite.xml
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Helpers.xml
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Mvc.xml
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Optimization.xml
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.Razor.xml
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.xml
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.Deployment.xml
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\System.Web.WebPages.Razor.xml
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\Newtonsoft.Json.xml
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\Antlr3.Runtime.pdb
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\obj\Debug\Thrift_Fashion.csproj.CoreCompileInputs.cache
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\obj\Debug\Thrift_Fashion.csproj.CopyComplete
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\obj\Debug\Thrift_Fashion.dll
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\obj\Debug\Thrift_Fashion.pdb
+C:\Thrift_Fashion\Thrift_Fashion\Thrift_Fashion\obj\Debug\Thrift_Fashion.csproj.AssemblyReference.cache

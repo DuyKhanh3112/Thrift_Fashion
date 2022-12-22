@@ -1,0 +1,43 @@
+﻿@model Thrift_Fashion.Models.Wishlist
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutServer.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Wishlist</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CreatedDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreatedDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Customer.Username)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Customer.Username)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Product.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Product.Name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.WishlistID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

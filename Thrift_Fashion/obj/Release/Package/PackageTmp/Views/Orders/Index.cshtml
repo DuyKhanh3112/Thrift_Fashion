@@ -1,0 +1,142 @@
+﻿@model IEnumerable<Thrift_Fashion.Models.Order>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutServer.cshtml";
+}
+
+@if (TempData["AlertMessage"] != null)
+{
+    <div id="msgAlert" class="alert alert-success hide">
+        <strong> @TempData["AlertMessage"]</strong>
+    </div>
+}
+@section scripts{
+    <script>
+        $("#msgAlert").removeClass("hide");
+
+        $("#msgAlert").delay(2000).slideUp(1000);
+    </script>
+}
+
+<!-- Static Table Start -->
+<div class="data-table-area mg-b-15">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <div class="sparkline13-list">
+                    <div class="sparkline13-hd">
+                        <div class="main-sparkline13-hd pull-left">
+                            <h1>Orders</h1>
+                        </div>
+                    </div>
+                    <div class="sparkline13-graph" style="clear:both">
+                        <div class="datatable-dashv1-list custom-datatable-overright">
+                            <table id="table" data-toggle="table" data-pagination="true" data-search="true" data-show-columns="true" data-show-pagination-switch="true" data-show-refresh="true" data-key-events="true" data-show-toggle="true" data-resizable="true" data-cookie="true"
+                                   data-cookie-id-table="saveId" data-show-export="true" data-click-to-select="true" data-toolbar="#toolbar">
+                                <thead>
+                                    <tr>
+                                        <th data-field="No">
+                                            No.
+                                        </th>
+                                        <th data-field="CustomerID">
+                                            @Html.DisplayNameFor(model => model.Customer.Fullname)
+                                        </th>
+                                        <th data-field="AddressID">
+                                            @Html.DisplayNameFor(model => model.Address.Province)
+                                        </th>
+                                        <th data-field="OrderDate">
+                                            @Html.DisplayNameFor(model => model.OrderDate)
+                                        </th>
+                                        <th data-field="ShipDate">
+                                            @Html.DisplayNameFor(model => model.ShipDate)
+                                        </th>
+                                        <th data-field="Total">
+                                            @Html.DisplayNameFor(model => model.Total)
+                                        </th>
+                                        <th data-field="Note">
+                                            @Html.DisplayNameFor(model => model.Note)
+                                        </th>
+                                        <th data-field="Status">
+                                            @Html.DisplayNameFor(model => model.Status)
+                                        </th>
+                                        <th data-field="action">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @{ 
+                                        int count = 0;
+                                    }
+                                    @foreach (var item in Model)
+                                    {
+                                        count++;
+                                        <tr>
+                                            <td>
+                                                @count
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Customer.Fullname)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Address.Province)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.OrderDate)
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.ShipDate)
+                                            </td>
+                                            <td>
+                                                @{
+                                                    var format = System.Globalization.CultureInfo.GetCultureInfo("en-US");
+                                                    @String.Format(format, "{0:c0}", @item.Total);
+                                                }
+                                            </td>
+                                            <td>
+                                                @Html.DisplayFor(modelItem => item.Note)
+                                            </td>
+                                            @{
+                                                if (item.Status == 0)
+                                                {
+                                                    <td>
+                                                        Wait for confirmation
+                                                    </td>
+                                                }
+                                                else if (item.Status == 1)
+                                                {
+                                                    <td>
+                                                        Delivering
+                                                    </td>
+                                                }
+                                                else if (item.Status == -1)
+                                                {
+                                                    <td>
+                                                        Cancel
+                                                    </td>
+                                                }
+                                                else
+                                                {
+                                                    <td>
+                                                        Delivered
+                                                    </td>
+                                                }
+                                            }
+                                            <td>
+                                                <a title="Edit" href="@Url.Action("Edit", "Orders", new { id=item.OrderID })" aria-expanded="false" class="btn btn-custon-rounded-four btn-primary">
+                                                    <span class="fa fa-edit" aria-hidden="true"></span>
+                                                </a>
+                                                <a title="Details" href="@Url.Action("Details", "Orders", new { id=item.OrderID })" aria-expanded="false" class="btn btn-custon-rounded-four btn-info">
+                                                    <span class="fa fa-eye" aria-hidden="true"></span>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

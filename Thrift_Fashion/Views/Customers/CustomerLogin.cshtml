@@ -1,0 +1,69 @@
+﻿@model Thrift_Fashion.Models.VirtualModel.LoginModel
+@{
+    ViewBag.Title = "CustomerLogin";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@section scripts{
+    <script src="~/Scripts/Client/js/Customer/CustomerJs.js"></script>
+}
+
+@{
+    if (TempData["msg"] != null)
+    {
+        @Html.Raw(TempData["msg"])
+    }
+}
+
+<!-- customer login start -->
+<div class="customer_login">
+    <div class="row">
+        <!--login area start-->
+        <div class="col-lg-4 col-md-4"></div>
+        <div class="col-lg-4 col-md-4">
+            <div class="account_form">
+                @using (Html.BeginForm("CustomerLogin", "Customers", FormMethod.Post))
+                {
+                    @Html.AntiForgeryToken()
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    <p>
+                        <label>Username<span>*</span></label>
+                        @Html.TextBoxFor(model => model.username, new { @class = "form-control", @id = "txtUserName" })
+                        @Html.ValidationMessageFor(model => model.username, "", new { @class = "text-danger" })
+                    </p>
+                    <p>
+                        <label>Password<span>*</span></label>
+                        @Html.PasswordFor(model => model.password, new { @class = "form-control input-text required-entry validate-password", @id = "txtPassword" })
+                        @Html.ValidationMessageFor(model => model.password, "", new { @class = "text-danger" })
+                    </p>
+                    <div class="login_submit">
+                        <button type="submit">login</button>
+                        <label for="remember">
+                            @Html.CheckBoxFor(model => model.remember) &nbsp;Remember Me
+                        </label>
+                        <a href="#" id="openModal">Forgot Password</a>
+                        <div id="modalForgotPassword" class="modal" tabindex="-1" role="dialog">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title">Your email</h5>
+                                    </div>
+                                    <div class="modal-body">
+                                        <input id="txtEmail" type="text" />
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button id="btnSubmit" type="button" class="btn btn-primary">Get code</button>
+                                        <button id="btnClose" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-4"></div>
+        <!--login area start-->
+    </div>
+</div>
+<!-- customer login end -->

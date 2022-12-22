@@ -1,0 +1,74 @@
+﻿@model Thrift_Fashion.Models.VirtualModel.RegisterModel
+
+@using BotDetect.Web.Mvc;
+<link href="@BotDetect.Web.CaptchaUrls.Absolute.LayoutStyleSheetUrl" rel="stylesheet" type="text/css" />
+
+@{
+    ViewBag.Title = "CustomerRegister";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
+    MvcCaptcha registerCaptcha = new MvcCaptcha("registerCaptcha");
+}
+
+<!-- customer register start -->
+<div class="customer_login">
+    <div class="row">
+        <!--register area start-->
+        <div class="col-lg-12 col-md-12">
+            <div class="account_form">
+                @using (Html.BeginForm("CustomerRegister", "Customers", FormMethod.Post))
+                {
+                    @Html.AntiForgeryToken()
+                    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                    <div class="row">
+                        <div class="form-group col-lg-6 col-sm-12 col-md-12">
+                            <label>Username<span>*</span></label>
+                            @Html.TextBoxFor(model => model.Username, new { @class = "form-control", @id = "txtUserName" })
+                            @Html.ValidationMessageFor(model => model.Username, "", new { @class = "text-danger" })
+                        </div>
+                        <div class="form-group col-lg-6 col-sm-12 col-md-12">
+                            <label>Email<span>*</span></label>
+                            @Html.TextBoxFor(model => model.Email, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-lg-6 col-sm-12 col-md-12">
+                            <label>Password<span>*</span></label>
+                            @Html.PasswordFor(model => model.Password, new { @class = "form-control input-text required-entry validate-password", @id = "txtPassword" })
+                            @Html.ValidationMessageFor(model => model.Password, "", new { @class = "text-danger" })
+                        </div>
+                        <div class="form-group col-lg-6 col-sm-12 col-md-12">
+                            <label>Phone Number<span>*</span></label>
+                            @Html.TextBoxFor(model => model.Phone, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.Phone, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="form-group col-lg-6 col-sm-12 col-md-12">
+                            <label>Confirm Password<span>*</span></label>
+                            @Html.PasswordFor(model => model.ConfirmPassword, new { @class = "form-control input-text required-entry validate-password" })
+                            @Html.ValidationMessageFor(model => model.ConfirmPassword, "", new { @class = "text-danger" })
+                        </div>
+                        <div class="form-group col-lg-6 col-sm-12 col-md-12">
+                            @Html.Captcha(registerCaptcha)
+                            @Html.TextBox("CaptchaCode")
+                        </div>
+                        <div class="form-group col-lg-6 col-sm-12 col-md-12">
+                            <label>Full Name<span>*</span></label>
+                            @Html.TextBoxFor(model => model.FullName, new { @class = "form-control" })
+                            @Html.ValidationMessageFor(model => model.FullName, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <div class="login_submit col-12 text-center">
+                        <button type="submit">Register</button>
+                    </div>
+                }
+            </div>
+        </div>
+        <!--register area start-->
+    </div>
+</div>
+<!-- customer register end -->

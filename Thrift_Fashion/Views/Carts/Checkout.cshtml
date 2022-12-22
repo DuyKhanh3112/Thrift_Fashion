@@ -1,0 +1,98 @@
+﻿@model IEnumerable<Thrift_Fashion.Models.Cart>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+    <!--Checkout page section-->
+    <div class="Checkout_section">
+        <div class="checkout_form">
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <form action="#">
+                        <h3>Billing Details</h3>
+                        @foreach (var item in Model)
+                        {
+                            <div class="row">
+                                <div class="col-lg-12 mb-30">
+                                    <label>Full Name</label>
+                                    <input type="text" readonly value="@Html.DisplayFor(modelItem => item.Customer.Fullname)">
+                                </div>
+                                <div class="col-12 mb-30">
+                                    <label>Phone Number</label>
+                                    <input type="text" readonly value="@Html.DisplayFor(modelItem => item.Customer.Phone)">
+                                </div>
+                                <div class="col-12 mb-30">
+                                    <label>Address</label><br />
+                                    <input type="text" class="col-9" readonly value="@ViewBag.Address">
+                                    <div class="col-1"></div>
+                                    <a style="height:40px;" href="/Addresses/Address" class="fa fa-edit btn btn-primary col-2"></a>
+                                </div>
+                                <div class="col-lg-12 mb-30">
+                                    <label>Email</label>
+                                    <input type="text" readonly value="@Html.DisplayFor(modelItem => item.Customer.Email)">
+                                </div>
+                            </div>
+                            break;
+                        }
+                    </form>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <form action="/Carts/Checkout" method="post">
+                        <h3>Your order</h3>
+                        <div class="order_table table-responsive mb-30">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Product</th>
+                                        <th></th>
+                                        <th>Price</th>
+                                        <th>Quantity</th>
+                                        <th>Discount</th>
+                                        <th>Total</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @{ decimal amount = 0;}
+                                    @{ foreach (var item in Model)
+                                        {
+                                            decimal total = item.Quantity * item.Product.Price * (100 - item.Product.Discount) / 100;
+                                            amount += total;
+                                            decimal price = item.Product.Price;
+                                            <tr>
+                                                <td><img src="~/Image/Products/@Html.DisplayFor(modelItem => item.Product.Image)" height="75" /></td>
+                                                <td> @Html.DisplayFor(modelItem => item.Product.Name)</td>
+                                                <td> $@price.ToString("N0")</td>
+                                                <td>  @Html.DisplayFor(modelItem => item.Quantity)</td>
+                                                <td> @Html.DisplayFor(modelItem => item.Product.Discount)</td>
+                                                <td> $@total.ToString("N0")</td>
+                                            </tr>
+                                        }
+                                    }
+                                </tbody>
+                                <tfoot>
+                                    <tr>
+                                        <th>Order Total</th>
+                                        <th> </th>
+                                        <th></th>
+                                        <th></th>
+                                        <th></th>
+                                        <td>$@amount.ToString("N0")</td>
+                                    </tr>
+
+                                </tfoot>
+                            </table>
+                        </div>
+                        <div class="payment_method" style="text-align:right">
+                            <div class="order_button">
+                                <button type="submit">Proceed to PayPal</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!--Checkout page section end-->

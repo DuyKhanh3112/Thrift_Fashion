@@ -1,0 +1,62 @@
+﻿@model IEnumerable<Thrift_Fashion.Models.Wishlist>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+<br />
+<!--shop tab product-->
+<div class="container">
+    <div class="row">
+        @{ if(Model.Count() == 0) { 
+            <hr />
+            } }
+        @foreach (var item in Model)
+            {
+                decimal priceSale = item.Product.Price * (100 - item.Product.Discount) / 100;
+                decimal price = item.Product.Price;
+            <div class="col-lg-3 col-md-6">
+                <div class="single_product" style="text-align:center">
+                    <div class="product_thumb">
+                        <a href="@Url.Action("Product_detail", "Products", new { id=item.ProductID })"><img src="/Image/Upload/Product/@Html.DisplayFor(ModelItem=>item.Product.Image)" alt="" style="width:100%;height:270px"></a>
+                        @{ if (item.Product.CreatedDate >= DateTime.Now.AddDays(-7))
+                            {
+                                <div class="img_icone">
+                                    <img src="~/Image/Client/img/cart/span-new.png" alt="">
+                                </div>
+                            } }
+                        <div class="product_action">
+                            <a href="@Url.Action("CreateCart", "Products", new { id=item.Product.ProductID })"> <i class="fa fa-shopping-cart"></i> Add to cart</a>
+                        </div>
+                    </div>
+                    <div class="product_content">
+                        <span class="product_price">
+                            $@priceSale.ToString("N0")
+                            @{ if (item.Product.Discount > 0)
+                                {
+                                    <i class="price-dc"> $@price.ToString("N0") </i>
+                                }
+                            }
+                        </span>
+                        <h3 class="product_title"><a href="@Url.Action("Product_detail", "Products", new { id=item.ProductID })"> @Html.DisplayFor(ModelItem => item.Product.Name)</a></h3>
+                    </div>
+                    <div class="product_info">
+                        <ul>
+                            <li><a data-modal='' href="@Url.Action("RemoveWishList", "Wishlists", new { id=item.WishlistID})" title=" Remove from Wishlist ">Remove from Wishlist</a></li>
+                            <li><a href="@Url.Action("Product_detail", "Products", new { id=item.ProductID })" title="Quick view">View Detail</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+<style>
+    .price-dc {
+        text-decoration: line-through;
+        color: #00BBA6;
+        font-size: 12px
+    }
+</style>

@@ -1,0 +1,93 @@
+﻿
+@model List<Thrift_Fashion.Models.Address>
+@{
+    ViewBag.Title = "Address";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var i = 1;
+}
+
+@section scripts{
+
+    <script src="~/Scripts/Client/js/Address/AddressJS.js"></script>
+}
+
+<section class="main_content_area">
+    <div class="account_dashboard">
+        <div class="row">
+            <div class="col-sm-12 col-md-3 col-lg-3">
+                <!-- Nav tabs -->
+                <div class="dashboard_tab_button">
+                    <ul class="nav flex-column dashboard-list">
+                        <li><a href="@Url.Action("Profile","Customers")" class="nav-link ">Personal Information</a></li>
+                        <li> <a href="@Url.Action("ChangePassword","Customers")" class="nav-link">Change Password</a></li>
+                        <li> <a href="@Url.Action("ShowAllOrder","Orders")" class="nav-link">Orders</a></li>
+                        <li><a href="/Addresses/Address" class="nav-link active">Addresses</a></li>
+                        <li><a href="/Customers/CustomerLogout" class="nav-link">Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-9 col-lg-9">
+                <div class="login_submit">
+                    <a style="float:right" href="@Url.Action("CreateAddress","Addresses")" class="button">New Address</a>
+                </div>
+                
+
+                <!-- Tab panes -->
+                <div style="margin-top:20px;" class="tab-content dashboard_content">
+                    <div class="tab-pane fade show active">
+                        <h3>Address Dashboard </h3>
+                        <div class="coron_table table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>No.</th>
+                                        <th>Province</th>
+                                        <th>District</th>
+                                        <th>Detail</th>
+                                        <th>Status</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (Thrift_Fashion.Models.Address item in Model)
+                                    {
+                                        <tr>
+                                            <td>@i</td>
+                                            <td>@item.Province</td>
+                                            <td>@item.District</td>
+                                            <td>@item.AddressDetail</td>
+                                            <td>
+                                                @if (item.Status == true)
+                                                {
+                                                    <div>Default</div>
+                                                }
+                                                else
+                                                {
+                                                    <a class="btnStatus" href="#" data-id="@item.AddressID" data-status="@item.Status">Extra</a>
+                                                }
+
+                                            </td>
+                                            <td>
+                                                @if (item.Status == true)
+                                                {
+                                                    <div>Delete</div>
+                                                }
+                                                else
+                                                {
+                                                    <a href="#" class="btnDelete" data-id="@item.AddressID">Delete</a>
+                                                }
+
+                                            </td>
+                                        </tr>
+                                        i++;
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

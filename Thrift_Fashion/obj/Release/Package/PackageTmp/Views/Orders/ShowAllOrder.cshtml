@@ -1,0 +1,99 @@
+﻿@model IEnumerable<Thrift_Fashion.Models.Order>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<!-- Start Maincontent  -->
+<section class="main_content_area">
+    <div class="account_dashboard">
+        <div class="row">
+            <div class="col-sm-12 col-md-3 col-lg-3">
+                <!-- Nav tabs -->
+                <div class="dashboard_tab_button">
+                    <ul class="nav flex-column dashboard-list">
+                        <li><a href="@Url.Action("Profile","Customers")" class="nav-link ">Personal Information</a></li>
+                        <li> <a href="@Url.Action("ChangePassword","Customers")" class="nav-link">Change Password</a></li>
+                        <li> <a href="@Url.Action("ShowAllOrder","Orders")" class="nav-link active">Orders</a></li>
+                        <li><a href="/Addresses/Address" class="nav-link">Addresses</a></li>
+                        <li><a href="/Customers/CustomerLogout" class="nav-link">Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-9 col-lg-9">
+                <!-- Tab panes -->
+                <div class="tab-content dashboard_content">
+                    <div class="tab-pane fade show active" id="orders">
+                        <h3>Orders</h3>
+                        <div class="coron_table table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th> No</th>
+                                        <th> Address</th>
+                                        <th> @Html.DisplayNameFor(model => model.Total)</th>
+                                        <th> @Html.DisplayNameFor(model => model.Note)</th>
+                                        <th> @Html.DisplayNameFor(model => model.Status)</th>
+                                        <th></th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @{ int i = 0;
+                                        foreach (var item in Model)
+                                        {
+                                            i++;
+                                            <tr>
+                                                <td>@i</td>
+                                                <td>@Html.DisplayFor(ModelItem => item.Address.AddressDetail), @Html.DisplayFor(ModelItem => item.Address.District), @Html.DisplayFor(ModelItem => item.Address.Province)</td>
+                                                <td>$@Html.DisplayFor(ModelItem => item.Total)</td>
+                                                <td>@Html.DisplayFor(ModelItem => item.Note)</td>
+                                                <td>
+                                                                @{if (item.Status == 0)
+                                                            {
+                                                            <span class="success">Wait for confirmation</span>
+                                            }
+                                                        else if (item.Status == 1)
+                                                        {
+                                                <span class="success"> Delivering</span>
+                                        }
+                                                        else if (item.Status == 2)
+                                        {
+                                                <span class="success">  Delivered</span>
+                                                        }
+                                                        else
+                                        {
+                                                <span class="success"> Cancel</span>}
+                                                    }
+                                                </td>
+                                                <td><a href="@Url.Action("ShowDetails", "OrderDetails", new { id=item.OrderID})" class="view">view</a></td>
+                                                <th>
+                                                    @{if (item.Status == 0)
+                                            {
+                                                            <a href="@Url.Action("RemoveOrder", "Orders", new { id=item.OrderID})"><span class="fa fa-remove"></span></a>
+                                                        }
+                                                        else { }
+                                                    }
+                                                </th>
+                                            </tr>
+                                        }
+                                    }
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="downloads">
+                        
+                    </div>
+                    <div class="tab-pane" id="address">
+                        
+                    </div>
+                    <div class="tab-pane fade" id="account-details">
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End Maincontent  -->

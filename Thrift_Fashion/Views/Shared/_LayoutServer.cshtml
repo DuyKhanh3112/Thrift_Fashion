@@ -1,0 +1,321 @@
+﻿@{
+    var empSession = (Thrift_Fashion.Models.VirtualModel.UserSession)Session[Thrift_Fashion.Common.Constants.EMPLOYEE_SESSION];
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="~/Image/Client/img/Logo.jpg">
+    <!-- Google Fonts
+        ============================================ -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900" rel="stylesheet">
+    <!-- Bootstrap CSS
+        ============================================ -->
+    @*<link rel="stylesheet" href="css/bootstrap.min.css">*@
+    <!-- Bootstrap CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/Content/Server/css/font-awesome.min.css">
+    <!-- owl.carousel CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/Content/Server/css/owl.carousel.css">
+    <link rel="stylesheet" href="~/Content/Server/css/owl.theme.css">
+    <link rel="stylesheet" href="~/Content/Server/css/owl.transitions.css">
+    <!-- animate CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/Content/Server/css/animate.css">
+    <!-- normalize CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/Content/Server/css/normalize.css">
+    <!-- meanmenu icon CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/Content/Server/css/meanmenu.min.css">
+    <!-- main CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/Content/Server/css/main.css">
+    <!-- educate icon CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/Content/Server/css/educate-custon-icon.css">
+    <!-- morrisjs CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/Content/Server/css/morrisjs/morris.css">
+    <!-- mCustomScrollbar CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/Content/Server/css/scrollbar/jquery.mCustomScrollbar.min.css">
+    <!-- metisMenu CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/Content/Server/css/metisMenu/metisMenu.min.css">
+    <link rel="stylesheet" href="~/Content/Server/css/metisMenu/metisMenu-vertical.css">
+    <!-- calendar CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/Content/Server/css/calendar/fullcalendar.min.css">
+    <link rel="stylesheet" href="~/Content/Server/css/calendar/fullcalendar.print.min.css">
+    <!-- x-editor CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/Content/Server/css/editor/select2.css">
+    <link rel="stylesheet" href="~/Content/Server/css/editor/datetimepicker.css">
+    <link rel="stylesheet" href="~/Content/Server/css/editor/bootstrap-editable.css">
+    <link rel="stylesheet" href="~/Content/Server/css/editor/x-editor-style.css">
+    <!-- normalize CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/Content/Server/css/data-table/bootstrap-table.css">
+    <link rel="stylesheet" href="~/Content/Server/css/data-table/bootstrap-editable.css">
+    <!-- style CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/Content/Server/style.css">
+    <!-- responsive CSS
+        ============================================ -->
+    <link rel="stylesheet" href="~/Content/Server/css/responsive.css">
+    <!-- modernizr JS
+        ============================================ -->
+    <link rel="stylesheet" href="~/Content/Server/css/imglogo.css" />
+    @Scripts.Render("~/bundles/modernizr")
+</head>
+<body>
+    <!-- Start Left menu area -->
+    <div class="left-sidebar-pro">
+        <nav id="sidebar" class="">
+            <div class="sidebar-header">
+                <br />
+                @{
+                    var logo = "~/Image/Server/logo/Logo.jpg";
+                }
+                <a href="@Url.Action("Index", "Brands")"><img class="main-logo" src="@Url.Content(logo)" alt="" height="150" width="150" style="margin-top:-1.5em" /></a>
+                <strong><a href="/Brands/Index"><img src="@Url.Content(logo)" alt="" height="150" width="150" style="margin-top:-1.0em" /></a></strong>
+            </div>
+            <div class="left-custom-menu-adp-wrap comment-scrollbar">
+                <nav class="sidebar-nav left-sidebar-menu-pro">
+                    <ul class="metismenu" id="menu1">
+                        <li>
+                            <a title="Manage Brand" href="/Brands/Index" aria-expanded="false"><span class="educate-icon educate-event icon-wrap sub-icon-mg" aria-hidden="true"></span> <span class="mini-click-non">Manage Brand</span></a>
+                        </li>
+                        <li>
+                            <a title="Manage Category" href="/Categories/Index" aria-expanded="false"><span class="educate-icon educate-event icon-wrap sub-icon-mg" aria-hidden="true"></span> <span class="mini-click-non">Manage Category</span></a>
+                        </li>
+                        <li>
+                            <a title="Manage Customer" href="/Customers/Index" aria-expanded="false"><span class="educate-icon educate-event icon-wrap sub-icon-mg" aria-hidden="true"></span> <span class="mini-click-non">Manage Customer</span></a>
+                        </li>
+                        <li>
+                            <a title="Manage Order" href="/Orders/Index" aria-expanded="false"><span class="educate-icon educate-event icon-wrap sub-icon-mg" aria-hidden="true"></span> <span class="mini-click-non">Manage Order</span></a>
+                        </li>
+                        <li>
+                            <a title="Manage Product" href="/Products/Index" aria-expanded="false"><span class="educate-icon educate-event icon-wrap sub-icon-mg" aria-hidden="true"></span> <span class="mini-click-non">Manage Product</span></a>
+                        </li>
+                        <li>
+                            <a title="Manage Feedback" href="/Feedbacks/Index" aria-expanded="false"><span class="educate-icon educate-event icon-wrap sub-icon-mg" aria-hidden="true"></span> <span class="mini-click-non">Manage Feedback</span></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </nav>
+    </div>
+    <!-- End Left menu area -->
+    <!-- Start Welcome area -->
+    <div class="all-content-wrapper">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="logo-pro">
+                        <a href="@Url.Action("Index", "Bills")">
+                            <img class="main-logo" src="@Url.Content(logo)" alt="" height="60" width="60" />
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-advance-area">
+            <div class="header-top-area">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="header-top-wraper">
+                                <div class="row">
+                                    <div class="col-lg-1 col-md-0 col-sm-1 col-xs-12">
+                                        <div class="menu-switcher-pro">
+                                            <button type="button" id="sidebarCollapse" class="btn bar-button-pro header-drl-controller-btn btn-info navbar-btn">
+                                                <i class="educate-icon educate-nav"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-7 col-sm-6 col-xs-12">
+                                    </div>
+                                    <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                                        <div class="header-right-info">
+                                            <ul class="nav navbar-nav mai-top-nav header-right-menu">
+                                                <li class="nav-item">
+                                                    @{
+                                                        if (empSession != null)
+                                                        {
+                                                            <a href="#" data-toggle="dropdown" role="button" aria-expanded="false" class="nav-link dropdown-toggle">
+
+                                                                <span class="admin-name">@empSession.Username</span>
+                                                                <i class="fa fa-angle-down edu-icon edu-down-arrow"></i>
+                                                            </a>
+                                                            <ul role="menu" class="dropdown-header-top author-log dropdown-menu animated zoomIn">
+                                                              
+                                                                <li>
+                                                                    <a href="@Url.Action("Logout", "Employees")"><span class="edu-icon edu-locked author-log-ic"></span>Log Out</a>
+                                                                </li>
+                                                            </ul>
+                                                        }
+                                                    }
+
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Mobile Menu start -->
+            <div class="mobile-menu-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <div class="mobile-menu">
+                                <nav id="dropdown">
+                                    @*@{
+                                        if (Session["EmpID"] != null)
+                                        {*@
+                                    <ul class="mobile-menu-nav">
+                                        <li>
+                                            <a data-toggle="collapse" data-target="#demoBrand" href="@Url.Action("Index", "Brands")">Manage Brand<span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                        </li>
+                                        <li>
+                                            <a data-toggle="collapse" data-target="#demoCategory" href="@Url.Action("Index", "Categories")">Manage Category<span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                        </li>
+                                        <li>
+                                            <a data-toggle="collapse" data-target="#demoCustomer" href="@Url.Action("Index", "Customers")">Manage Customer<span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                        </li>
+                                        <li>
+                                            <a data-toggle="collapse" data-target="#demoFeedback" href="@Url.Action("Index", "Feedbacks")">Manage Feedback<span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                        </li>
+                                        <li>
+                                            <a data-toggle="collapse" data-target="#demoOrder" href="@Url.Action("Index", "Orders")">Manage Order<span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                        </li>
+                                        <li>
+                                            <a data-toggle="collapse" data-target="#demoProduct" href="@Url.Action("Index", "Products")">Manage Product<span class="admin-project-icon edu-icon edu-down-arrow"></span></a>
+                                        </li>
+                                    </ul>
+                                    @*}
+                                        }*@
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Mobile Menu end -->
+
+        </div>
+        <div class="analytics-sparkle-area">
+            <div class="container-fluid">
+                @RenderBody()
+            </div>
+        </div>
+        <hr />
+        <div class="footer-copyright-area">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="footer-copy-right">
+                            <p>THRIFT FASHION  © 2022</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Welcome area -->
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    <!-- wow JS
+        ============================================ -->
+    <script src="~/Scripts/Server/js/wow.min.js"></script>
+    <!-- price-slider JS
+        ============================================ -->
+    <script src="~/Scripts/Server/js/jquery-price-slider.js"></script>
+    <!-- meanmenu JS
+        ============================================ -->
+    <script src="~/Scripts/Server/js/jquery.meanmenu.js"></script>
+    <!-- owl.carousel JS
+        ============================================ -->
+    <script src="~/Scripts/Server/js/owl.carousel.min.js"></script>
+    <!-- sticky JS
+        ============================================ -->
+    <script src="~/Scripts/Server/js/jquery.sticky.js"></script>
+    <!-- scrollUp JS
+        ============================================ -->
+    <script src="~/Scripts/Server/js/jquery.scrollUp.min.js"></script>
+    <!-- counterup JS
+        ============================================ -->
+    <script src="~/Scripts/Server/js/counterup/jquery.counterup.min.js"></script>
+    <script src="~/Scripts/Server/js/counterup/waypoints.min.js"></script>
+    <script src="~/Scripts/Server/js/counterup/counterup-active.js"></script>
+    <!-- mCustomScrollbar JS
+        ============================================ -->
+    <script src="~/Scripts/Server/js/scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="~/Scripts/Server/js/scrollbar/mCustomScrollbar-active.js"></script>
+    <!-- metisMenu JS
+        ============================================ -->
+    <script src="~/Scripts/Server/js/metisMenu/metisMenu.min.js"></script>
+    <script src="~/Scripts/Server/js/metisMenu/metisMenu-active.js"></script>
+    <!-- morrisjs JS
+        ============================================ -->
+    <script src="~/Scripts/Server/js/morrisjs/raphael-min.js"></script>
+    <script src="~/Scripts/Server/js/morrisjs/morris.js"></script>
+    <script src="~/Scripts/Server/js/morrisjs/morris-active.js"></script>
+    <!-- morrisjs JS
+        ============================================ -->
+    <script src="~/Scripts/Server/js/sparkline/jquery.sparkline.min.js"></script>
+    <script src="~/Scripts/Server/js/sparkline/jquery.charts-sparkline.js"></script>
+    <script src="~/Scripts/Server/js/sparkline/sparkline-active.js"></script>
+    <!-- calendar JS
+        ============================================ -->
+    <script src="~/Scripts/Server/js/calendar/moment.min.js"></script>
+    <script src="~/Scripts/Server/js/calendar/fullcalendar.min.js"></script>
+    <script src="~/Scripts/Server/js/calendar/fullcalendar-active.js"></script>
+    <!-- data table JS
+        ============================================ -->
+    <script src="~/Scripts/Server/js/data-table/bootstrap-table.js"></script>
+    <script src="~/Scripts/Server/js/data-table/tableExport.js"></script>
+    <script src="~/Scripts/Server/js/data-table/data-table-active.js"></script>
+    <script src="~/Scripts/Server/js/data-table/bootstrap-table-editable.js"></script>
+    <script src="~/Scripts/Server/js/data-table/bootstrap-editable.js"></script>
+    <script src="~/Scripts/Server/js/data-table/bootstrap-table-resizable.js"></script>
+    <script src="~/Scripts/Server/js/data-table/colResizable-1.5.source.js"></script>
+    <script src="~/Scripts/Server/js/data-table/bootstrap-table-export.js"></script>
+    <!--  editable JS
+        ============================================ -->
+    <script src="~/Scripts/Server/js/editable/jquery.mockjax.js"></script>
+    <script src="~/Scripts/Server/js/editable/mock-active.js"></script>
+    <script src="~/Scripts/Server/js/editable/select2.js"></script>
+    <script src="~/Scripts/Server/js/editable/moment.min.js"></script>
+    <script src="~/Scripts/Server/js/editable/bootstrap-datetimepicker.js"></script>
+    <script src="~/Scripts/Server/js/editable/bootstrap-editable.js"></script>
+    <script src="~/Scripts/Server/js/editable/xediable-active.js"></script>
+    <!-- Chart JS
+        ============================================ -->
+    <script src="~/Scripts/Server/js/chart/jquery.peity.min.js"></script>
+    <script src="~/Scripts/Server/js/peity/peity-active.js"></script>
+    <!-- tab JS
+        ============================================ -->
+    <script src="~/Scripts/Server/js/tab.js"></script>
+    <!-- plugins JS
+        ============================================ -->
+    <script src="~/Scripts/Server/js/plugins.js"></script>
+    <!-- main JS
+        ============================================ -->
+    <script src="~/Scripts/Server/js/main.js"></script>
+    <script src="~/Scripts/Server/getuplogo.js"></script>
+    <script src="~/Scripts/Server/imglogo.js"></script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>
